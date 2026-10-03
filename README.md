@@ -8,6 +8,9 @@ A small command-line application for SBA 928, built with Python and `uv`.
 uv run sba-928-chauncey-rutledge
 ```
 
+The application waits for messages and responds to `hello`, `hi`, and `hey`.
+Use `quit` or `exit` to close it.
+
 ## Project layout
 
 - `src/sba_928_chauncey_rutledge/` contains the application package.
