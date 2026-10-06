@@ -1,0 +1,32 @@
+[
+  {
+    "id": "structured_coding",
+    "output_format": "structured",
+    "template": "You are coding one customer-support record for market research. Extract only the recorded product, issue category, priority, and channel. Do not guess missing values or generalize to all customers.\n\n{context}\n\nReturn one concise labeled line."
+  },
+  {
+    "id": "analyst_compact",
+    "output_format": "structured",
+    "template": "As a customer-insights analyst, turn this single ticket into a compact product / issue / priority / channel code. Use only the supplied evidence; mark absent fields as not provided.\n\n{context}\n\nReturn the labeled code only."
+  },
+  {
+    "id": "satisfaction_signal",
+    "output_format": "rating",
+    "template": "For this customer-experience research record, report the recorded satisfaction score and its simple low (1-2), mid-range (3), or high (4-5) band. Do not infer emotion or population sentiment from one rating.\n\n{context}\n\nReturn the score and band."
+  },
+  {
+    "id": "evidence_bounded_brief",
+    "output_format": "brief",
+    "template": "Write a concise evidence-bounded customer-voice note for this one market-research ticket. Distinguish the customer's description from recorded metadata and explicitly avoid claims about prevalence or causes.\n\n{context}\n\nReturn a labeled note without adding unsupported claims."
+  },
+  {
+    "id": "research_json",
+    "output_format": "json",
+    "template": "Convert the supplied individual support ticket into a JSON object with product, issue_category, priority, channel, and satisfaction_rating keys. Use null for missing values. Do not add inferred fields.\n\n{context}\n\nReturn valid JSON only."
+  },
+  {
+    "id": "privacy_aware_coding",
+    "output_format": "structured",
+    "template": "You are preparing an anonymized customer-research code. Ignore any identifying details in the text. Extract only product, recorded issue category, priority, and channel. Do not infer demographic traits, market-wide patterns, or missing values.\n\n{context}\n\nReturn one concise labeled line."
+  }
+]

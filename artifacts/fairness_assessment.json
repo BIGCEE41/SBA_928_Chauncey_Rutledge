@@ -1,0 +1,37 @@
+{
+  "assessment_type": "descriptive dataset audit; not a model fairness certification",
+  "model_input_uses_demographics": false,
+  "small_group_suppression_threshold": 5,
+  "dimensions": {
+    "gender": {
+      "not reported": {
+        "records": 30,
+        "mean_satisfaction_rating": 2.42
+      }
+    },
+    "age_band": {
+      "18-29": {
+        "records": "<5; suppressed",
+        "mean_satisfaction_rating": null
+      },
+      "30-44": {
+        "records": 6,
+        "mean_satisfaction_rating": 1.67
+      },
+      "45-59": {
+        "records": 15,
+        "mean_satisfaction_rating": 2.86
+      },
+      "60+": {
+        "records": 6,
+        "mean_satisfaction_rating": 1.0
+      }
+    }
+  },
+  "limitations": [
+    "Ticket records are not a representative sample of all customers or the market.",
+    "Group differences are descriptive and do not establish discrimination or causation.",
+    "Small groups are suppressed; missing or inaccurate demographic fields may distort comparisons.",
+    "No model outputs are conditioned on demographic fields."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "run_completed_utc": "2026-10-05T19:39:41.943575+00:00",
+  "model": "google/flan-t5-small",
+  "method": "LoRA adapter fine-tuning of a sequence-to-sequence instruction model",
+  "adapter_path": "artifacts\\fine_tuned_adapter",
+  "device": "cpu",
+  "epochs": 1,
+  "batch_size": 2,
+  "learning_rate": 0.0002,
+  "seed": 928,
+  "training_examples": 144,
+  "mean_training_loss": 2.025007,
+  "evaluation": {
+    "held_out_examples": 6,
+    "base_exact_match_count": 0,
+    "fine_tuned_exact_match_count": 0,
+    "base_exact_match_rate": 0.0,
+    "fine_tuned_exact_match_rate": 0.0
+  },
+  "software_versions": {
+    "torch": "2.14.1",
+    "transformers": "5.18.0",
+    "peft": "0.21.2",
+    "kagglehub": "1.0.2"
+  },
+  "dataset": {
+    "source": "https://www.kaggle.com/datasets/suraj520/customer-support-ticket-dataset",
+    "dataset_file": "customer_support_tickets.csv",
+    "sha256": "b06a9cde84da65db388bd964d75f88ee1eed96607cf75d0c35f09c3f11bf8bea",
+    "records": 30,
+    "sampling_method": "seeded random sample of all usable records",
+    "sample_seed": 928,
+    "train_records": 24,
+    "validation_records": 6,
+    "prompt_variations": 6,
+    "train_examples": 144,
+    "validation_examples": 36,
+    "seed": 928,
+    "excluded_model_input_fields": [
+      "customer name",
+      "email",
+      "gender",
+      "age"
+    ],
+    "pii_redaction": [
+      "email addresses",
+      "phone-number-like strings"
+    ],
+    "created_utc": "2026-10-05T19:36:38.920011+00:00"
+  }
+}
