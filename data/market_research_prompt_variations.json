@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "mr_001_plain",
+    "base_id": "mr_001",
+    "style": "plain",
+    "task_type": "theme_summary",
+    "industry": "SaaS",
+    "region": "North America",
+    "audience": "product managers",
+    "prompt": "Summarize the three most common themes in customer complaints about a project-management app's onboarding experience. Quote no personal data and keep it under 120 words."
+  },
+  {
+    "id": "mr_001_role_based",
+    "base_id": "mr_001",
+    "style": "role_based",
+    "task_type": "theme_summary",
+    "industry": "SaaS",
+    "region": "North America",
+    "audience": "product managers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Summarize the three most common themes in customer complaints about a project-management app's onboarding experience. Quote no personal data and keep it under 120 words."
+  },
+  {
+    "id": "mr_001_few_shot",
+    "base_id": "mr_001",
+    "style": "few_shot",
+    "task_type": "theme_summary",
+    "industry": "SaaS",
+    "region": "North America",
+    "audience": "product managers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Summarize the three most common themes in customer complaints about a project-management app's onboarding experience. Quote no personal data and keep it under 120 words."
+  },
+  {
+    "id": "mr_001_structured_cot",
+    "base_id": "mr_001",
+    "style": "structured_cot",
+    "task_type": "theme_summary",
+    "industry": "SaaS",
+    "region": "North America",
+    "audience": "product managers",
+    "prompt": "Summarize the three most common themes in customer complaints about a project-management app's onboarding experience. Quote no personal data and keep it under 120 words.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_002_plain",
+    "base_id": "mr_002",
+    "style": "plain",
+    "task_type": "theme_summary",
+    "industry": "Retail",
+    "region": "Southeast Asia",
+    "audience": "e-commerce operations leads",
+    "prompt": "Summarize recurring customer feedback themes about delivery delays for an online fashion retailer. Separate issues the company controls from issues it does not."
+  },
+  {
+    "id": "mr_002_role_based",
+    "base_id": "mr_002",
+    "style": "role_based",
+    "task_type": "theme_summary",
+    "industry": "Retail",
+    "region": "Southeast Asia",
+    "audience": "e-commerce operations leads",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Summarize recurring customer feedback themes about delivery delays for an online fashion retailer. Separate issues the company controls from issues it does not."
+  },
+  {
+    "id": "mr_002_few_shot",
+    "base_id": "mr_002",
+    "style": "few_shot",
+    "task_type": "theme_summary",
+    "industry": "Retail",
+    "region": "Southeast Asia",
+    "audience": "e-commerce operations leads",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Summarize recurring customer feedback themes about delivery delays for an online fashion retailer. Separate issues the company controls from issues it does not."
+  },
+  {
+    "id": "mr_002_structured_cot",
+    "base_id": "mr_002",
+    "style": "structured_cot",
+    "task_type": "theme_summary",
+    "industry": "Retail",
+    "region": "Southeast Asia",
+    "audience": "e-commerce operations leads",
+    "prompt": "Summarize recurring customer feedback themes about delivery delays for an online fashion retailer. Separate issues the company controls from issues it does not.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_003_plain",
+    "base_id": "mr_003",
+    "style": "plain",
+    "task_type": "competitor_comparison",
+    "industry": "Telecom",
+    "region": "Western Europe",
+    "audience": "marketing directors",
+    "prompt": "Compare how customers describe the service quality of two mobile carriers. List strengths and weaknesses of each, and state what evidence would be needed to confirm the comparison."
+  },
+  {
+    "id": "mr_003_role_based",
+    "base_id": "mr_003",
+    "style": "role_based",
+    "task_type": "competitor_comparison",
+    "industry": "Telecom",
+    "region": "Western Europe",
+    "audience": "marketing directors",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Compare how customers describe the service quality of two mobile carriers. List strengths and weaknesses of each, and state what evidence would be needed to confirm the comparison."
+  },
+  {
+    "id": "mr_003_few_shot",
+    "base_id": "mr_003",
+    "style": "few_shot",
+    "task_type": "competitor_comparison",
+    "industry": "Telecom",
+    "region": "Western Europe",
+    "audience": "marketing directors",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Compare how customers describe the service quality of two mobile carriers. List strengths and weaknesses of each, and state what evidence would be needed to confirm the comparison."
+  },
+  {
+    "id": "mr_003_structured_cot",
+    "base_id": "mr_003",
+    "style": "structured_cot",
+    "task_type": "competitor_comparison",
+    "industry": "Telecom",
+    "region": "Western Europe",
+    "audience": "marketing directors",
+    "prompt": "Compare how customers describe the service quality of two mobile carriers. List strengths and weaknesses of each, and state what evidence would be needed to confirm the comparison.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_004_plain",
+    "base_id": "mr_004",
+    "style": "plain",
+    "task_type": "competitor_comparison",
+    "industry": "Healthcare",
+    "region": "Sub-Saharan Africa",
+    "audience": "clinic administrators",
+    "prompt": "Compare patient-reported experiences at a public clinic and a private clinic, focusing on wait time, cost, and communication. Avoid assuming either is better."
+  },
+  {
+    "id": "mr_004_role_based",
+    "base_id": "mr_004",
+    "style": "role_based",
+    "task_type": "competitor_comparison",
+    "industry": "Healthcare",
+    "region": "Sub-Saharan Africa",
+    "audience": "clinic administrators",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Compare patient-reported experiences at a public clinic and a private clinic, focusing on wait time, cost, and communication. Avoid assuming either is better."
+  },
+  {
+    "id": "mr_004_few_shot",
+    "base_id": "mr_004",
+    "style": "few_shot",
+    "task_type": "competitor_comparison",
+    "industry": "Healthcare",
+    "region": "Sub-Saharan Africa",
+    "audience": "clinic administrators",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Compare patient-reported experiences at a public clinic and a private clinic, focusing on wait time, cost, and communication. Avoid assuming either is better."
+  },
+  {
+    "id": "mr_004_structured_cot",
+    "base_id": "mr_004",
+    "style": "structured_cot",
+    "task_type": "competitor_comparison",
+    "industry": "Healthcare",
+    "region": "Sub-Saharan Africa",
+    "audience": "clinic administrators",
+    "prompt": "Compare patient-reported experiences at a public clinic and a private clinic, focusing on wait time, cost, and communication. Avoid assuming either is better.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_005_plain",
+    "base_id": "mr_005",
+    "style": "plain",
+    "task_type": "survey_design",
+    "industry": "Food and Beverage",
+    "region": "Latin America",
+    "audience": "brand managers",
+    "prompt": "Design a 10-question survey to measure customer interest in a new low-sugar soft drink. Include a mix of rating-scale and open-ended questions, and avoid leading wording."
+  },
+  {
+    "id": "mr_005_role_based",
+    "base_id": "mr_005",
+    "style": "role_based",
+    "task_type": "survey_design",
+    "industry": "Food and Beverage",
+    "region": "Latin America",
+    "audience": "brand managers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Design a 10-question survey to measure customer interest in a new low-sugar soft drink. Include a mix of rating-scale and open-ended questions, and avoid leading wording."
+  },
+  {
+    "id": "mr_005_few_shot",
+    "base_id": "mr_005",
+    "style": "few_shot",
+    "task_type": "survey_design",
+    "industry": "Food and Beverage",
+    "region": "Latin America",
+    "audience": "brand managers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Design a 10-question survey to measure customer interest in a new low-sugar soft drink. Include a mix of rating-scale and open-ended questions, and avoid leading wording."
+  },
+  {
+    "id": "mr_005_structured_cot",
+    "base_id": "mr_005",
+    "style": "structured_cot",
+    "task_type": "survey_design",
+    "industry": "Food and Beverage",
+    "region": "Latin America",
+    "audience": "brand managers",
+    "prompt": "Design a 10-question survey to measure customer interest in a new low-sugar soft drink. Include a mix of rating-scale and open-ended questions, and avoid leading wording.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_006_plain",
+    "base_id": "mr_006",
+    "style": "plain",
+    "task_type": "survey_design",
+    "industry": "Banking",
+    "region": "South Asia",
+    "audience": "retail banking teams",
+    "prompt": "Write a short questionnaire to learn why customers do not use a bank's mobile app. Make the questions accessible to people with limited digital experience."
+  },
+  {
+    "id": "mr_006_role_based",
+    "base_id": "mr_006",
+    "style": "role_based",
+    "task_type": "survey_design",
+    "industry": "Banking",
+    "region": "South Asia",
+    "audience": "retail banking teams",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Write a short questionnaire to learn why customers do not use a bank's mobile app. Make the questions accessible to people with limited digital experience."
+  },
+  {
+    "id": "mr_006_few_shot",
+    "base_id": "mr_006",
+    "style": "few_shot",
+    "task_type": "survey_design",
+    "industry": "Banking",
+    "region": "South Asia",
+    "audience": "retail banking teams",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Write a short questionnaire to learn why customers do not use a bank's mobile app. Make the questions accessible to people with limited digital experience."
+  },
+  {
+    "id": "mr_006_structured_cot",
+    "base_id": "mr_006",
+    "style": "structured_cot",
+    "task_type": "survey_design",
+    "industry": "Banking",
+    "region": "South Asia",
+    "audience": "retail banking teams",
+    "prompt": "Write a short questionnaire to learn why customers do not use a bank's mobile app. Make the questions accessible to people with limited digital experience.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_007_plain",
+    "base_id": "mr_007",
+    "style": "plain",
+    "task_type": "persona_generation",
+    "industry": "Travel",
+    "region": "Middle East",
+    "audience": "tourism marketers",
+    "prompt": "Create two customer personas for a boutique hotel, based only on stated needs and behaviors, not on stereotypes about nationality, gender, or religion."
+  },
+  {
+    "id": "mr_007_role_based",
+    "base_id": "mr_007",
+    "style": "role_based",
+    "task_type": "persona_generation",
+    "industry": "Travel",
+    "region": "Middle East",
+    "audience": "tourism marketers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Create two customer personas for a boutique hotel, based only on stated needs and behaviors, not on stereotypes about nationality, gender, or religion."
+  },
+  {
+    "id": "mr_007_few_shot",
+    "base_id": "mr_007",
+    "style": "few_shot",
+    "task_type": "persona_generation",
+    "industry": "Travel",
+    "region": "Middle East",
+    "audience": "tourism marketers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Create two customer personas for a boutique hotel, based only on stated needs and behaviors, not on stereotypes about nationality, gender, or religion."
+  },
+  {
+    "id": "mr_007_structured_cot",
+    "base_id": "mr_007",
+    "style": "structured_cot",
+    "task_type": "persona_generation",
+    "industry": "Travel",
+    "region": "Middle East",
+    "audience": "tourism marketers",
+    "prompt": "Create two customer personas for a boutique hotel, based only on stated needs and behaviors, not on stereotypes about nationality, gender, or religion.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_008_plain",
+    "base_id": "mr_008",
+    "style": "plain",
+    "task_type": "persona_generation",
+    "industry": "Education",
+    "region": "North America",
+    "audience": "edtech founders",
+    "prompt": "Create three user personas for an online tutoring platform, including goals, frustrations, and the evidence you would need to validate each one."
+  },
+  {
+    "id": "mr_008_role_based",
+    "base_id": "mr_008",
+    "style": "role_based",
+    "task_type": "persona_generation",
+    "industry": "Education",
+    "region": "North America",
+    "audience": "edtech founders",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Create three user personas for an online tutoring platform, including goals, frustrations, and the evidence you would need to validate each one."
+  },
+  {
+    "id": "mr_008_few_shot",
+    "base_id": "mr_008",
+    "style": "few_shot",
+    "task_type": "persona_generation",
+    "industry": "Education",
+    "region": "North America",
+    "audience": "edtech founders",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Create three user personas for an online tutoring platform, including goals, frustrations, and the evidence you would need to validate each one."
+  },
+  {
+    "id": "mr_008_structured_cot",
+    "base_id": "mr_008",
+    "style": "structured_cot",
+    "task_type": "persona_generation",
+    "industry": "Education",
+    "region": "North America",
+    "audience": "edtech founders",
+    "prompt": "Create three user personas for an online tutoring platform, including goals, frustrations, and the evidence you would need to validate each one.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_009_plain",
+    "base_id": "mr_009",
+    "style": "plain",
+    "task_type": "trend_analysis",
+    "industry": "Consumer Electronics",
+    "region": "East Asia",
+    "audience": "category analysts",
+    "prompt": "Describe how complaint categories for wireless earbuds might shift across quarters, and list which metrics you would track to confirm the trend."
+  },
+  {
+    "id": "mr_009_role_based",
+    "base_id": "mr_009",
+    "style": "role_based",
+    "task_type": "trend_analysis",
+    "industry": "Consumer Electronics",
+    "region": "East Asia",
+    "audience": "category analysts",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Describe how complaint categories for wireless earbuds might shift across quarters, and list which metrics you would track to confirm the trend."
+  },
+  {
+    "id": "mr_009_few_shot",
+    "base_id": "mr_009",
+    "style": "few_shot",
+    "task_type": "trend_analysis",
+    "industry": "Consumer Electronics",
+    "region": "East Asia",
+    "audience": "category analysts",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Describe how complaint categories for wireless earbuds might shift across quarters, and list which metrics you would track to confirm the trend."
+  },
+  {
+    "id": "mr_009_structured_cot",
+    "base_id": "mr_009",
+    "style": "structured_cot",
+    "task_type": "trend_analysis",
+    "industry": "Consumer Electronics",
+    "region": "East Asia",
+    "audience": "category analysts",
+    "prompt": "Describe how complaint categories for wireless earbuds might shift across quarters, and list which metrics you would track to confirm the trend.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_010_plain",
+    "base_id": "mr_010",
+    "style": "plain",
+    "task_type": "trend_analysis",
+    "industry": "Streaming",
+    "region": "Europe",
+    "audience": "subscription growth teams",
+    "prompt": "Analyze possible reasons for rising cancellation requests among streaming subscribers, separating pricing, content, and technical causes."
+  },
+  {
+    "id": "mr_010_role_based",
+    "base_id": "mr_010",
+    "style": "role_based",
+    "task_type": "trend_analysis",
+    "industry": "Streaming",
+    "region": "Europe",
+    "audience": "subscription growth teams",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Analyze possible reasons for rising cancellation requests among streaming subscribers, separating pricing, content, and technical causes."
+  },
+  {
+    "id": "mr_010_few_shot",
+    "base_id": "mr_010",
+    "style": "few_shot",
+    "task_type": "trend_analysis",
+    "industry": "Streaming",
+    "region": "Europe",
+    "audience": "subscription growth teams",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Analyze possible reasons for rising cancellation requests among streaming subscribers, separating pricing, content, and technical causes."
+  },
+  {
+    "id": "mr_010_structured_cot",
+    "base_id": "mr_010",
+    "style": "structured_cot",
+    "task_type": "trend_analysis",
+    "industry": "Streaming",
+    "region": "Europe",
+    "audience": "subscription growth teams",
+    "prompt": "Analyze possible reasons for rising cancellation requests among streaming subscribers, separating pricing, content, and technical causes.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_011_plain",
+    "base_id": "mr_011",
+    "style": "plain",
+    "task_type": "sentiment_synthesis",
+    "industry": "Automotive",
+    "region": "North America",
+    "audience": "customer-experience leads",
+    "prompt": "Synthesize overall sentiment from customer comments about a dealership's service department. Report positive, neutral, and negative shares as estimates and note the uncertainty."
+  },
+  {
+    "id": "mr_011_role_based",
+    "base_id": "mr_011",
+    "style": "role_based",
+    "task_type": "sentiment_synthesis",
+    "industry": "Automotive",
+    "region": "North America",
+    "audience": "customer-experience leads",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Synthesize overall sentiment from customer comments about a dealership's service department. Report positive, neutral, and negative shares as estimates and note the uncertainty."
+  },
+  {
+    "id": "mr_011_few_shot",
+    "base_id": "mr_011",
+    "style": "few_shot",
+    "task_type": "sentiment_synthesis",
+    "industry": "Automotive",
+    "region": "North America",
+    "audience": "customer-experience leads",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Synthesize overall sentiment from customer comments about a dealership's service department. Report positive, neutral, and negative shares as estimates and note the uncertainty."
+  },
+  {
+    "id": "mr_011_structured_cot",
+    "base_id": "mr_011",
+    "style": "structured_cot",
+    "task_type": "sentiment_synthesis",
+    "industry": "Automotive",
+    "region": "North America",
+    "audience": "customer-experience leads",
+    "prompt": "Synthesize overall sentiment from customer comments about a dealership's service department. Report positive, neutral, and negative shares as estimates and note the uncertainty.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_012_plain",
+    "base_id": "mr_012",
+    "style": "plain",
+    "task_type": "sentiment_synthesis",
+    "industry": "Real Estate",
+    "region": "Australia",
+    "audience": "property managers",
+    "prompt": "Synthesize tenant sentiment about maintenance responsiveness. Flag any comments that are ambiguous or sarcastic rather than guessing their tone."
+  },
+  {
+    "id": "mr_012_role_based",
+    "base_id": "mr_012",
+    "style": "role_based",
+    "task_type": "sentiment_synthesis",
+    "industry": "Real Estate",
+    "region": "Australia",
+    "audience": "property managers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Synthesize tenant sentiment about maintenance responsiveness. Flag any comments that are ambiguous or sarcastic rather than guessing their tone."
+  },
+  {
+    "id": "mr_012_few_shot",
+    "base_id": "mr_012",
+    "style": "few_shot",
+    "task_type": "sentiment_synthesis",
+    "industry": "Real Estate",
+    "region": "Australia",
+    "audience": "property managers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Synthesize tenant sentiment about maintenance responsiveness. Flag any comments that are ambiguous or sarcastic rather than guessing their tone."
+  },
+  {
+    "id": "mr_012_structured_cot",
+    "base_id": "mr_012",
+    "style": "structured_cot",
+    "task_type": "sentiment_synthesis",
+    "industry": "Real Estate",
+    "region": "Australia",
+    "audience": "property managers",
+    "prompt": "Synthesize tenant sentiment about maintenance responsiveness. Flag any comments that are ambiguous or sarcastic rather than guessing their tone.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_013_plain",
+    "base_id": "mr_013",
+    "style": "plain",
+    "task_type": "questionnaire_design",
+    "industry": "Fitness",
+    "region": "Western Europe",
+    "audience": "gym chain marketers",
+    "prompt": "Draft 8 questions to find out why members cancel gym memberships. Use neutral wording and include one open-ended question."
+  },
+  {
+    "id": "mr_013_role_based",
+    "base_id": "mr_013",
+    "style": "role_based",
+    "task_type": "questionnaire_design",
+    "industry": "Fitness",
+    "region": "Western Europe",
+    "audience": "gym chain marketers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Draft 8 questions to find out why members cancel gym memberships. Use neutral wording and include one open-ended question."
+  },
+  {
+    "id": "mr_013_few_shot",
+    "base_id": "mr_013",
+    "style": "few_shot",
+    "task_type": "questionnaire_design",
+    "industry": "Fitness",
+    "region": "Western Europe",
+    "audience": "gym chain marketers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Draft 8 questions to find out why members cancel gym memberships. Use neutral wording and include one open-ended question."
+  },
+  {
+    "id": "mr_013_structured_cot",
+    "base_id": "mr_013",
+    "style": "structured_cot",
+    "task_type": "questionnaire_design",
+    "industry": "Fitness",
+    "region": "Western Europe",
+    "audience": "gym chain marketers",
+    "prompt": "Draft 8 questions to find out why members cancel gym memberships. Use neutral wording and include one open-ended question.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_014_plain",
+    "base_id": "mr_014",
+    "style": "plain",
+    "task_type": "questionnaire_design",
+    "industry": "Insurance",
+    "region": "East Asia",
+    "audience": "product teams",
+    "prompt": "Write a short survey on customer understanding of a new health insurance plan. Keep language plain and avoid jargon."
+  },
+  {
+    "id": "mr_014_role_based",
+    "base_id": "mr_014",
+    "style": "role_based",
+    "task_type": "questionnaire_design",
+    "industry": "Insurance",
+    "region": "East Asia",
+    "audience": "product teams",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Write a short survey on customer understanding of a new health insurance plan. Keep language plain and avoid jargon."
+  },
+  {
+    "id": "mr_014_few_shot",
+    "base_id": "mr_014",
+    "style": "few_shot",
+    "task_type": "questionnaire_design",
+    "industry": "Insurance",
+    "region": "East Asia",
+    "audience": "product teams",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Write a short survey on customer understanding of a new health insurance plan. Keep language plain and avoid jargon."
+  },
+  {
+    "id": "mr_014_structured_cot",
+    "base_id": "mr_014",
+    "style": "structured_cot",
+    "task_type": "questionnaire_design",
+    "industry": "Insurance",
+    "region": "East Asia",
+    "audience": "product teams",
+    "prompt": "Write a short survey on customer understanding of a new health insurance plan. Keep language plain and avoid jargon.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_015_plain",
+    "base_id": "mr_015",
+    "style": "plain",
+    "task_type": "questionnaire_design",
+    "industry": "Agriculture",
+    "region": "Sub-Saharan Africa",
+    "audience": "agri-input suppliers",
+    "prompt": "Design a survey for smallholder farmers about fertilizer purchasing habits that works for low-literacy respondents."
+  },
+  {
+    "id": "mr_015_role_based",
+    "base_id": "mr_015",
+    "style": "role_based",
+    "task_type": "questionnaire_design",
+    "industry": "Agriculture",
+    "region": "Sub-Saharan Africa",
+    "audience": "agri-input suppliers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Design a survey for smallholder farmers about fertilizer purchasing habits that works for low-literacy respondents."
+  },
+  {
+    "id": "mr_015_few_shot",
+    "base_id": "mr_015",
+    "style": "few_shot",
+    "task_type": "questionnaire_design",
+    "industry": "Agriculture",
+    "region": "Sub-Saharan Africa",
+    "audience": "agri-input suppliers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Design a survey for smallholder farmers about fertilizer purchasing habits that works for low-literacy respondents."
+  },
+  {
+    "id": "mr_015_structured_cot",
+    "base_id": "mr_015",
+    "style": "structured_cot",
+    "task_type": "questionnaire_design",
+    "industry": "Agriculture",
+    "region": "Sub-Saharan Africa",
+    "audience": "agri-input suppliers",
+    "prompt": "Design a survey for smallholder farmers about fertilizer purchasing habits that works for low-literacy respondents.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_016_plain",
+    "base_id": "mr_016",
+    "style": "plain",
+    "task_type": "concept_testing",
+    "industry": "Food and Beverage",
+    "region": "North America",
+    "audience": "innovation teams",
+    "prompt": "Write a concept-test script for a plant-based snack bar. Include screening, reaction, and purchase-intent questions."
+  },
+  {
+    "id": "mr_016_role_based",
+    "base_id": "mr_016",
+    "style": "role_based",
+    "task_type": "concept_testing",
+    "industry": "Food and Beverage",
+    "region": "North America",
+    "audience": "innovation teams",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Write a concept-test script for a plant-based snack bar. Include screening, reaction, and purchase-intent questions."
+  },
+  {
+    "id": "mr_016_few_shot",
+    "base_id": "mr_016",
+    "style": "few_shot",
+    "task_type": "concept_testing",
+    "industry": "Food and Beverage",
+    "region": "North America",
+    "audience": "innovation teams",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Write a concept-test script for a plant-based snack bar. Include screening, reaction, and purchase-intent questions."
+  },
+  {
+    "id": "mr_016_structured_cot",
+    "base_id": "mr_016",
+    "style": "structured_cot",
+    "task_type": "concept_testing",
+    "industry": "Food and Beverage",
+    "region": "North America",
+    "audience": "innovation teams",
+    "prompt": "Write a concept-test script for a plant-based snack bar. Include screening, reaction, and purchase-intent questions.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_017_plain",
+    "base_id": "mr_017",
+    "style": "plain",
+    "task_type": "concept_testing",
+    "industry": "Fintech",
+    "region": "Latin America",
+    "audience": "product managers",
+    "prompt": "Outline how to test customer reaction to a budgeting feature in a payments app, including what would count as a negative signal."
+  },
+  {
+    "id": "mr_017_role_based",
+    "base_id": "mr_017",
+    "style": "role_based",
+    "task_type": "concept_testing",
+    "industry": "Fintech",
+    "region": "Latin America",
+    "audience": "product managers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Outline how to test customer reaction to a budgeting feature in a payments app, including what would count as a negative signal."
+  },
+  {
+    "id": "mr_017_few_shot",
+    "base_id": "mr_017",
+    "style": "few_shot",
+    "task_type": "concept_testing",
+    "industry": "Fintech",
+    "region": "Latin America",
+    "audience": "product managers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Outline how to test customer reaction to a budgeting feature in a payments app, including what would count as a negative signal."
+  },
+  {
+    "id": "mr_017_structured_cot",
+    "base_id": "mr_017",
+    "style": "structured_cot",
+    "task_type": "concept_testing",
+    "industry": "Fintech",
+    "region": "Latin America",
+    "audience": "product managers",
+    "prompt": "Outline how to test customer reaction to a budgeting feature in a payments app, including what would count as a negative signal.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_018_plain",
+    "base_id": "mr_018",
+    "style": "plain",
+    "task_type": "concept_testing",
+    "industry": "Home Goods",
+    "region": "Europe",
+    "audience": "design leads",
+    "prompt": "Propose a method to compare two packaging concepts for a reusable water bottle with a fair sample across age groups."
+  },
+  {
+    "id": "mr_018_role_based",
+    "base_id": "mr_018",
+    "style": "role_based",
+    "task_type": "concept_testing",
+    "industry": "Home Goods",
+    "region": "Europe",
+    "audience": "design leads",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Propose a method to compare two packaging concepts for a reusable water bottle with a fair sample across age groups."
+  },
+  {
+    "id": "mr_018_few_shot",
+    "base_id": "mr_018",
+    "style": "few_shot",
+    "task_type": "concept_testing",
+    "industry": "Home Goods",
+    "region": "Europe",
+    "audience": "design leads",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Propose a method to compare two packaging concepts for a reusable water bottle with a fair sample across age groups."
+  },
+  {
+    "id": "mr_018_structured_cot",
+    "base_id": "mr_018",
+    "style": "structured_cot",
+    "task_type": "concept_testing",
+    "industry": "Home Goods",
+    "region": "Europe",
+    "audience": "design leads",
+    "prompt": "Propose a method to compare two packaging concepts for a reusable water bottle with a fair sample across age groups.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_019_plain",
+    "base_id": "mr_019",
+    "style": "plain",
+    "task_type": "journey_analysis",
+    "industry": "E-commerce",
+    "region": "South Asia",
+    "audience": "CX teams",
+    "prompt": "Map the customer journey from product discovery to return for an online electronics order, and mark where support tickets likely arise."
+  },
+  {
+    "id": "mr_019_role_based",
+    "base_id": "mr_019",
+    "style": "role_based",
+    "task_type": "journey_analysis",
+    "industry": "E-commerce",
+    "region": "South Asia",
+    "audience": "CX teams",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Map the customer journey from product discovery to return for an online electronics order, and mark where support tickets likely arise."
+  },
+  {
+    "id": "mr_019_few_shot",
+    "base_id": "mr_019",
+    "style": "few_shot",
+    "task_type": "journey_analysis",
+    "industry": "E-commerce",
+    "region": "South Asia",
+    "audience": "CX teams",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Map the customer journey from product discovery to return for an online electronics order, and mark where support tickets likely arise."
+  },
+  {
+    "id": "mr_019_structured_cot",
+    "base_id": "mr_019",
+    "style": "structured_cot",
+    "task_type": "journey_analysis",
+    "industry": "E-commerce",
+    "region": "South Asia",
+    "audience": "CX teams",
+    "prompt": "Map the customer journey from product discovery to return for an online electronics order, and mark where support tickets likely arise.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_020_plain",
+    "base_id": "mr_020",
+    "style": "plain",
+    "task_type": "journey_analysis",
+    "industry": "Airlines",
+    "region": "Middle East",
+    "audience": "service designers",
+    "prompt": "Describe pain points across booking, check-in, and baggage claim based on typical customer feedback, and say which are speculative."
+  },
+  {
+    "id": "mr_020_role_based",
+    "base_id": "mr_020",
+    "style": "role_based",
+    "task_type": "journey_analysis",
+    "industry": "Airlines",
+    "region": "Middle East",
+    "audience": "service designers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Describe pain points across booking, check-in, and baggage claim based on typical customer feedback, and say which are speculative."
+  },
+  {
+    "id": "mr_020_few_shot",
+    "base_id": "mr_020",
+    "style": "few_shot",
+    "task_type": "journey_analysis",
+    "industry": "Airlines",
+    "region": "Middle East",
+    "audience": "service designers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Describe pain points across booking, check-in, and baggage claim based on typical customer feedback, and say which are speculative."
+  },
+  {
+    "id": "mr_020_structured_cot",
+    "base_id": "mr_020",
+    "style": "structured_cot",
+    "task_type": "journey_analysis",
+    "industry": "Airlines",
+    "region": "Middle East",
+    "audience": "service designers",
+    "prompt": "Describe pain points across booking, check-in, and baggage claim based on typical customer feedback, and say which are speculative.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_021_plain",
+    "base_id": "mr_021",
+    "style": "plain",
+    "task_type": "journey_analysis",
+    "industry": "Healthcare",
+    "region": "North America",
+    "audience": "patient-experience teams",
+    "prompt": "Outline the patient journey for scheduling a specialist appointment and identify points where customers abandon the process."
+  },
+  {
+    "id": "mr_021_role_based",
+    "base_id": "mr_021",
+    "style": "role_based",
+    "task_type": "journey_analysis",
+    "industry": "Healthcare",
+    "region": "North America",
+    "audience": "patient-experience teams",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Outline the patient journey for scheduling a specialist appointment and identify points where customers abandon the process."
+  },
+  {
+    "id": "mr_021_few_shot",
+    "base_id": "mr_021",
+    "style": "few_shot",
+    "task_type": "journey_analysis",
+    "industry": "Healthcare",
+    "region": "North America",
+    "audience": "patient-experience teams",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Outline the patient journey for scheduling a specialist appointment and identify points where customers abandon the process."
+  },
+  {
+    "id": "mr_021_structured_cot",
+    "base_id": "mr_021",
+    "style": "structured_cot",
+    "task_type": "journey_analysis",
+    "industry": "Healthcare",
+    "region": "North America",
+    "audience": "patient-experience teams",
+    "prompt": "Outline the patient journey for scheduling a specialist appointment and identify points where customers abandon the process.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_022_plain",
+    "base_id": "mr_022",
+    "style": "plain",
+    "task_type": "theme_summary",
+    "industry": "Telecom",
+    "region": "Sub-Saharan Africa",
+    "audience": "customer care managers",
+    "prompt": "Summarize common themes in billing complaints for a prepaid mobile service. Separate billing errors from confusion about plans."
+  },
+  {
+    "id": "mr_022_role_based",
+    "base_id": "mr_022",
+    "style": "role_based",
+    "task_type": "theme_summary",
+    "industry": "Telecom",
+    "region": "Sub-Saharan Africa",
+    "audience": "customer care managers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Summarize common themes in billing complaints for a prepaid mobile service. Separate billing errors from confusion about plans."
+  },
+  {
+    "id": "mr_022_few_shot",
+    "base_id": "mr_022",
+    "style": "few_shot",
+    "task_type": "theme_summary",
+    "industry": "Telecom",
+    "region": "Sub-Saharan Africa",
+    "audience": "customer care managers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Summarize common themes in billing complaints for a prepaid mobile service. Separate billing errors from confusion about plans."
+  },
+  {
+    "id": "mr_022_structured_cot",
+    "base_id": "mr_022",
+    "style": "structured_cot",
+    "task_type": "theme_summary",
+    "industry": "Telecom",
+    "region": "Sub-Saharan Africa",
+    "audience": "customer care managers",
+    "prompt": "Summarize common themes in billing complaints for a prepaid mobile service. Separate billing errors from confusion about plans.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_023_plain",
+    "base_id": "mr_023",
+    "style": "plain",
+    "task_type": "theme_summary",
+    "industry": "Hospitality",
+    "region": "Southern Europe",
+    "audience": "hotel managers",
+    "prompt": "Summarize recurring guest feedback about cleanliness and noise, and rank themes by how often they likely appear."
+  },
+  {
+    "id": "mr_023_role_based",
+    "base_id": "mr_023",
+    "style": "role_based",
+    "task_type": "theme_summary",
+    "industry": "Hospitality",
+    "region": "Southern Europe",
+    "audience": "hotel managers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Summarize recurring guest feedback about cleanliness and noise, and rank themes by how often they likely appear."
+  },
+  {
+    "id": "mr_023_few_shot",
+    "base_id": "mr_023",
+    "style": "few_shot",
+    "task_type": "theme_summary",
+    "industry": "Hospitality",
+    "region": "Southern Europe",
+    "audience": "hotel managers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Summarize recurring guest feedback about cleanliness and noise, and rank themes by how often they likely appear."
+  },
+  {
+    "id": "mr_023_structured_cot",
+    "base_id": "mr_023",
+    "style": "structured_cot",
+    "task_type": "theme_summary",
+    "industry": "Hospitality",
+    "region": "Southern Europe",
+    "audience": "hotel managers",
+    "prompt": "Summarize recurring guest feedback about cleanliness and noise, and rank themes by how often they likely appear.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_024_plain",
+    "base_id": "mr_024",
+    "style": "plain",
+    "task_type": "theme_summary",
+    "industry": "Software",
+    "region": "East Asia",
+    "audience": "support leads",
+    "prompt": "Summarize the main themes in support requests about login and password problems, without including any personal details."
+  },
+  {
+    "id": "mr_024_role_based",
+    "base_id": "mr_024",
+    "style": "role_based",
+    "task_type": "theme_summary",
+    "industry": "Software",
+    "region": "East Asia",
+    "audience": "support leads",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Summarize the main themes in support requests about login and password problems, without including any personal details."
+  },
+  {
+    "id": "mr_024_few_shot",
+    "base_id": "mr_024",
+    "style": "few_shot",
+    "task_type": "theme_summary",
+    "industry": "Software",
+    "region": "East Asia",
+    "audience": "support leads",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Summarize the main themes in support requests about login and password problems, without including any personal details."
+  },
+  {
+    "id": "mr_024_structured_cot",
+    "base_id": "mr_024",
+    "style": "structured_cot",
+    "task_type": "theme_summary",
+    "industry": "Software",
+    "region": "East Asia",
+    "audience": "support leads",
+    "prompt": "Summarize the main themes in support requests about login and password problems, without including any personal details.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_025_plain",
+    "base_id": "mr_025",
+    "style": "plain",
+    "task_type": "competitor_comparison",
+    "industry": "Streaming",
+    "region": "North America",
+    "audience": "strategy teams",
+    "prompt": "Compare customer perceptions of two video streaming services on price, content, and app quality, and flag where evidence is thin."
+  },
+  {
+    "id": "mr_025_role_based",
+    "base_id": "mr_025",
+    "style": "role_based",
+    "task_type": "competitor_comparison",
+    "industry": "Streaming",
+    "region": "North America",
+    "audience": "strategy teams",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Compare customer perceptions of two video streaming services on price, content, and app quality, and flag where evidence is thin."
+  },
+  {
+    "id": "mr_025_few_shot",
+    "base_id": "mr_025",
+    "style": "few_shot",
+    "task_type": "competitor_comparison",
+    "industry": "Streaming",
+    "region": "North America",
+    "audience": "strategy teams",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Compare customer perceptions of two video streaming services on price, content, and app quality, and flag where evidence is thin."
+  },
+  {
+    "id": "mr_025_structured_cot",
+    "base_id": "mr_025",
+    "style": "structured_cot",
+    "task_type": "competitor_comparison",
+    "industry": "Streaming",
+    "region": "North America",
+    "audience": "strategy teams",
+    "prompt": "Compare customer perceptions of two video streaming services on price, content, and app quality, and flag where evidence is thin.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_026_plain",
+    "base_id": "mr_026",
+    "style": "plain",
+    "task_type": "competitor_comparison",
+    "industry": "Grocery",
+    "region": "Southeast Asia",
+    "audience": "retail planners",
+    "prompt": "Compare shopper views of a supermarket chain and a local wet market on freshness, price, and convenience without favoring either."
+  },
+  {
+    "id": "mr_026_role_based",
+    "base_id": "mr_026",
+    "style": "role_based",
+    "task_type": "competitor_comparison",
+    "industry": "Grocery",
+    "region": "Southeast Asia",
+    "audience": "retail planners",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Compare shopper views of a supermarket chain and a local wet market on freshness, price, and convenience without favoring either."
+  },
+  {
+    "id": "mr_026_few_shot",
+    "base_id": "mr_026",
+    "style": "few_shot",
+    "task_type": "competitor_comparison",
+    "industry": "Grocery",
+    "region": "Southeast Asia",
+    "audience": "retail planners",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Compare shopper views of a supermarket chain and a local wet market on freshness, price, and convenience without favoring either."
+  },
+  {
+    "id": "mr_026_structured_cot",
+    "base_id": "mr_026",
+    "style": "structured_cot",
+    "task_type": "competitor_comparison",
+    "industry": "Grocery",
+    "region": "Southeast Asia",
+    "audience": "retail planners",
+    "prompt": "Compare shopper views of a supermarket chain and a local wet market on freshness, price, and convenience without favoring either.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_027_plain",
+    "base_id": "mr_027",
+    "style": "plain",
+    "task_type": "competitor_comparison",
+    "industry": "Banking",
+    "region": "Europe",
+    "audience": "product leads",
+    "prompt": "Compare customer feedback on a traditional bank and a digital-only bank, listing strengths and risks for each."
+  },
+  {
+    "id": "mr_027_role_based",
+    "base_id": "mr_027",
+    "style": "role_based",
+    "task_type": "competitor_comparison",
+    "industry": "Banking",
+    "region": "Europe",
+    "audience": "product leads",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Compare customer feedback on a traditional bank and a digital-only bank, listing strengths and risks for each."
+  },
+  {
+    "id": "mr_027_few_shot",
+    "base_id": "mr_027",
+    "style": "few_shot",
+    "task_type": "competitor_comparison",
+    "industry": "Banking",
+    "region": "Europe",
+    "audience": "product leads",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Compare customer feedback on a traditional bank and a digital-only bank, listing strengths and risks for each."
+  },
+  {
+    "id": "mr_027_structured_cot",
+    "base_id": "mr_027",
+    "style": "structured_cot",
+    "task_type": "competitor_comparison",
+    "industry": "Banking",
+    "region": "Europe",
+    "audience": "product leads",
+    "prompt": "Compare customer feedback on a traditional bank and a digital-only bank, listing strengths and risks for each.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_028_plain",
+    "base_id": "mr_028",
+    "style": "plain",
+    "task_type": "persona_generation",
+    "industry": "Gaming",
+    "region": "Latin America",
+    "audience": "studio marketers",
+    "prompt": "Create two player personas for a mobile puzzle game based on play habits and spending, not on age or gender assumptions."
+  },
+  {
+    "id": "mr_028_role_based",
+    "base_id": "mr_028",
+    "style": "role_based",
+    "task_type": "persona_generation",
+    "industry": "Gaming",
+    "region": "Latin America",
+    "audience": "studio marketers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Create two player personas for a mobile puzzle game based on play habits and spending, not on age or gender assumptions."
+  },
+  {
+    "id": "mr_028_few_shot",
+    "base_id": "mr_028",
+    "style": "few_shot",
+    "task_type": "persona_generation",
+    "industry": "Gaming",
+    "region": "Latin America",
+    "audience": "studio marketers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Create two player personas for a mobile puzzle game based on play habits and spending, not on age or gender assumptions."
+  },
+  {
+    "id": "mr_028_structured_cot",
+    "base_id": "mr_028",
+    "style": "structured_cot",
+    "task_type": "persona_generation",
+    "industry": "Gaming",
+    "region": "Latin America",
+    "audience": "studio marketers",
+    "prompt": "Create two player personas for a mobile puzzle game based on play habits and spending, not on age or gender assumptions.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_029_plain",
+    "base_id": "mr_029",
+    "style": "plain",
+    "task_type": "persona_generation",
+    "industry": "Healthcare",
+    "region": "South Asia",
+    "audience": "digital health teams",
+    "prompt": "Create two user personas for a telemedicine app, covering access barriers, trust concerns, and device limits."
+  },
+  {
+    "id": "mr_029_role_based",
+    "base_id": "mr_029",
+    "style": "role_based",
+    "task_type": "persona_generation",
+    "industry": "Healthcare",
+    "region": "South Asia",
+    "audience": "digital health teams",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Create two user personas for a telemedicine app, covering access barriers, trust concerns, and device limits."
+  },
+  {
+    "id": "mr_029_few_shot",
+    "base_id": "mr_029",
+    "style": "few_shot",
+    "task_type": "persona_generation",
+    "industry": "Healthcare",
+    "region": "South Asia",
+    "audience": "digital health teams",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Create two user personas for a telemedicine app, covering access barriers, trust concerns, and device limits."
+  },
+  {
+    "id": "mr_029_structured_cot",
+    "base_id": "mr_029",
+    "style": "structured_cot",
+    "task_type": "persona_generation",
+    "industry": "Healthcare",
+    "region": "South Asia",
+    "audience": "digital health teams",
+    "prompt": "Create two user personas for a telemedicine app, covering access barriers, trust concerns, and device limits.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_030_plain",
+    "base_id": "mr_030",
+    "style": "plain",
+    "task_type": "persona_generation",
+    "industry": "Retail",
+    "region": "Australia",
+    "audience": "merchandisers",
+    "prompt": "Create three shopper personas for a sustainable clothing brand and state which claims need real survey data to confirm."
+  },
+  {
+    "id": "mr_030_role_based",
+    "base_id": "mr_030",
+    "style": "role_based",
+    "task_type": "persona_generation",
+    "industry": "Retail",
+    "region": "Australia",
+    "audience": "merchandisers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Create three shopper personas for a sustainable clothing brand and state which claims need real survey data to confirm."
+  },
+  {
+    "id": "mr_030_few_shot",
+    "base_id": "mr_030",
+    "style": "few_shot",
+    "task_type": "persona_generation",
+    "industry": "Retail",
+    "region": "Australia",
+    "audience": "merchandisers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Create three shopper personas for a sustainable clothing brand and state which claims need real survey data to confirm."
+  },
+  {
+    "id": "mr_030_structured_cot",
+    "base_id": "mr_030",
+    "style": "structured_cot",
+    "task_type": "persona_generation",
+    "industry": "Retail",
+    "region": "Australia",
+    "audience": "merchandisers",
+    "prompt": "Create three shopper personas for a sustainable clothing brand and state which claims need real survey data to confirm.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_031_plain",
+    "base_id": "mr_031",
+    "style": "plain",
+    "task_type": "trend_analysis",
+    "industry": "Food Delivery",
+    "region": "East Asia",
+    "audience": "operations leads",
+    "prompt": "Describe how complaint categories for a delivery app could change between weekday and weekend orders, and how you would test it."
+  },
+  {
+    "id": "mr_031_role_based",
+    "base_id": "mr_031",
+    "style": "role_based",
+    "task_type": "trend_analysis",
+    "industry": "Food Delivery",
+    "region": "East Asia",
+    "audience": "operations leads",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Describe how complaint categories for a delivery app could change between weekday and weekend orders, and how you would test it."
+  },
+  {
+    "id": "mr_031_few_shot",
+    "base_id": "mr_031",
+    "style": "few_shot",
+    "task_type": "trend_analysis",
+    "industry": "Food Delivery",
+    "region": "East Asia",
+    "audience": "operations leads",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Describe how complaint categories for a delivery app could change between weekday and weekend orders, and how you would test it."
+  },
+  {
+    "id": "mr_031_structured_cot",
+    "base_id": "mr_031",
+    "style": "structured_cot",
+    "task_type": "trend_analysis",
+    "industry": "Food Delivery",
+    "region": "East Asia",
+    "audience": "operations leads",
+    "prompt": "Describe how complaint categories for a delivery app could change between weekday and weekend orders, and how you would test it.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_032_plain",
+    "base_id": "mr_032",
+    "style": "plain",
+    "task_type": "trend_analysis",
+    "industry": "Electric Vehicles",
+    "region": "Europe",
+    "audience": "market analysts",
+    "prompt": "Analyze likely shifts in customer concerns about EV charging over time, separating cost, availability, and reliability."
+  },
+  {
+    "id": "mr_032_role_based",
+    "base_id": "mr_032",
+    "style": "role_based",
+    "task_type": "trend_analysis",
+    "industry": "Electric Vehicles",
+    "region": "Europe",
+    "audience": "market analysts",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Analyze likely shifts in customer concerns about EV charging over time, separating cost, availability, and reliability."
+  },
+  {
+    "id": "mr_032_few_shot",
+    "base_id": "mr_032",
+    "style": "few_shot",
+    "task_type": "trend_analysis",
+    "industry": "Electric Vehicles",
+    "region": "Europe",
+    "audience": "market analysts",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Analyze likely shifts in customer concerns about EV charging over time, separating cost, availability, and reliability."
+  },
+  {
+    "id": "mr_032_structured_cot",
+    "base_id": "mr_032",
+    "style": "structured_cot",
+    "task_type": "trend_analysis",
+    "industry": "Electric Vehicles",
+    "region": "Europe",
+    "audience": "market analysts",
+    "prompt": "Analyze likely shifts in customer concerns about EV charging over time, separating cost, availability, and reliability.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_033_plain",
+    "base_id": "mr_033",
+    "style": "plain",
+    "task_type": "trend_analysis",
+    "industry": "Education",
+    "region": "Sub-Saharan Africa",
+    "audience": "program managers",
+    "prompt": "Describe possible trends in learner feedback about mobile learning apps and which metrics would confirm them."
+  },
+  {
+    "id": "mr_033_role_based",
+    "base_id": "mr_033",
+    "style": "role_based",
+    "task_type": "trend_analysis",
+    "industry": "Education",
+    "region": "Sub-Saharan Africa",
+    "audience": "program managers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Describe possible trends in learner feedback about mobile learning apps and which metrics would confirm them."
+  },
+  {
+    "id": "mr_033_few_shot",
+    "base_id": "mr_033",
+    "style": "few_shot",
+    "task_type": "trend_analysis",
+    "industry": "Education",
+    "region": "Sub-Saharan Africa",
+    "audience": "program managers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Describe possible trends in learner feedback about mobile learning apps and which metrics would confirm them."
+  },
+  {
+    "id": "mr_033_structured_cot",
+    "base_id": "mr_033",
+    "style": "structured_cot",
+    "task_type": "trend_analysis",
+    "industry": "Education",
+    "region": "Sub-Saharan Africa",
+    "audience": "program managers",
+    "prompt": "Describe possible trends in learner feedback about mobile learning apps and which metrics would confirm them.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_034_plain",
+    "base_id": "mr_034",
+    "style": "plain",
+    "task_type": "sentiment_synthesis",
+    "industry": "Airlines",
+    "region": "Europe",
+    "audience": "customer-experience leads",
+    "prompt": "Synthesize sentiment about flight delays and compensation handling, giving rough proportions and noting uncertainty."
+  },
+  {
+    "id": "mr_034_role_based",
+    "base_id": "mr_034",
+    "style": "role_based",
+    "task_type": "sentiment_synthesis",
+    "industry": "Airlines",
+    "region": "Europe",
+    "audience": "customer-experience leads",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Synthesize sentiment about flight delays and compensation handling, giving rough proportions and noting uncertainty."
+  },
+  {
+    "id": "mr_034_few_shot",
+    "base_id": "mr_034",
+    "style": "few_shot",
+    "task_type": "sentiment_synthesis",
+    "industry": "Airlines",
+    "region": "Europe",
+    "audience": "customer-experience leads",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Synthesize sentiment about flight delays and compensation handling, giving rough proportions and noting uncertainty."
+  },
+  {
+    "id": "mr_034_structured_cot",
+    "base_id": "mr_034",
+    "style": "structured_cot",
+    "task_type": "sentiment_synthesis",
+    "industry": "Airlines",
+    "region": "Europe",
+    "audience": "customer-experience leads",
+    "prompt": "Synthesize sentiment about flight delays and compensation handling, giving rough proportions and noting uncertainty.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_035_plain",
+    "base_id": "mr_035",
+    "style": "plain",
+    "task_type": "sentiment_synthesis",
+    "industry": "Retail",
+    "region": "Middle East",
+    "audience": "store operations teams",
+    "prompt": "Synthesize customer sentiment about in-store checkout experience and flag mixed or ambiguous comments separately."
+  },
+  {
+    "id": "mr_035_role_based",
+    "base_id": "mr_035",
+    "style": "role_based",
+    "task_type": "sentiment_synthesis",
+    "industry": "Retail",
+    "region": "Middle East",
+    "audience": "store operations teams",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Synthesize customer sentiment about in-store checkout experience and flag mixed or ambiguous comments separately."
+  },
+  {
+    "id": "mr_035_few_shot",
+    "base_id": "mr_035",
+    "style": "few_shot",
+    "task_type": "sentiment_synthesis",
+    "industry": "Retail",
+    "region": "Middle East",
+    "audience": "store operations teams",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Synthesize customer sentiment about in-store checkout experience and flag mixed or ambiguous comments separately."
+  },
+  {
+    "id": "mr_035_structured_cot",
+    "base_id": "mr_035",
+    "style": "structured_cot",
+    "task_type": "sentiment_synthesis",
+    "industry": "Retail",
+    "region": "Middle East",
+    "audience": "store operations teams",
+    "prompt": "Synthesize customer sentiment about in-store checkout experience and flag mixed or ambiguous comments separately.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_036_plain",
+    "base_id": "mr_036",
+    "style": "plain",
+    "task_type": "sentiment_synthesis",
+    "industry": "Utilities",
+    "region": "South Asia",
+    "audience": "service managers",
+    "prompt": "Synthesize sentiment about outage communication, and note that dissatisfied customers may be over-represented in feedback."
+  },
+  {
+    "id": "mr_036_role_based",
+    "base_id": "mr_036",
+    "style": "role_based",
+    "task_type": "sentiment_synthesis",
+    "industry": "Utilities",
+    "region": "South Asia",
+    "audience": "service managers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Synthesize sentiment about outage communication, and note that dissatisfied customers may be over-represented in feedback."
+  },
+  {
+    "id": "mr_036_few_shot",
+    "base_id": "mr_036",
+    "style": "few_shot",
+    "task_type": "sentiment_synthesis",
+    "industry": "Utilities",
+    "region": "South Asia",
+    "audience": "service managers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Synthesize sentiment about outage communication, and note that dissatisfied customers may be over-represented in feedback."
+  },
+  {
+    "id": "mr_036_structured_cot",
+    "base_id": "mr_036",
+    "style": "structured_cot",
+    "task_type": "sentiment_synthesis",
+    "industry": "Utilities",
+    "region": "South Asia",
+    "audience": "service managers",
+    "prompt": "Synthesize sentiment about outage communication, and note that dissatisfied customers may be over-represented in feedback.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_037_plain",
+    "base_id": "mr_037",
+    "style": "plain",
+    "task_type": "survey_design",
+    "industry": "Pharmacy",
+    "region": "North America",
+    "audience": "pharmacy chain analysts",
+    "prompt": "Design a survey about customer satisfaction with prescription pickup that avoids collecting health details."
+  },
+  {
+    "id": "mr_037_role_based",
+    "base_id": "mr_037",
+    "style": "role_based",
+    "task_type": "survey_design",
+    "industry": "Pharmacy",
+    "region": "North America",
+    "audience": "pharmacy chain analysts",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Design a survey about customer satisfaction with prescription pickup that avoids collecting health details."
+  },
+  {
+    "id": "mr_037_few_shot",
+    "base_id": "mr_037",
+    "style": "few_shot",
+    "task_type": "survey_design",
+    "industry": "Pharmacy",
+    "region": "North America",
+    "audience": "pharmacy chain analysts",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Design a survey about customer satisfaction with prescription pickup that avoids collecting health details."
+  },
+  {
+    "id": "mr_037_structured_cot",
+    "base_id": "mr_037",
+    "style": "structured_cot",
+    "task_type": "survey_design",
+    "industry": "Pharmacy",
+    "region": "North America",
+    "audience": "pharmacy chain analysts",
+    "prompt": "Design a survey about customer satisfaction with prescription pickup that avoids collecting health details.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_038_plain",
+    "base_id": "mr_038",
+    "style": "plain",
+    "task_type": "survey_design",
+    "industry": "Public Transit",
+    "region": "Latin America",
+    "audience": "city planners",
+    "prompt": "Write a rider survey on bus reliability that is short enough to complete in two minutes and works on a basic phone."
+  },
+  {
+    "id": "mr_038_role_based",
+    "base_id": "mr_038",
+    "style": "role_based",
+    "task_type": "survey_design",
+    "industry": "Public Transit",
+    "region": "Latin America",
+    "audience": "city planners",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Write a rider survey on bus reliability that is short enough to complete in two minutes and works on a basic phone."
+  },
+  {
+    "id": "mr_038_few_shot",
+    "base_id": "mr_038",
+    "style": "few_shot",
+    "task_type": "survey_design",
+    "industry": "Public Transit",
+    "region": "Latin America",
+    "audience": "city planners",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Write a rider survey on bus reliability that is short enough to complete in two minutes and works on a basic phone."
+  },
+  {
+    "id": "mr_038_structured_cot",
+    "base_id": "mr_038",
+    "style": "structured_cot",
+    "task_type": "survey_design",
+    "industry": "Public Transit",
+    "region": "Latin America",
+    "audience": "city planners",
+    "prompt": "Write a rider survey on bus reliability that is short enough to complete in two minutes and works on a basic phone.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_039_plain",
+    "base_id": "mr_039",
+    "style": "plain",
+    "task_type": "survey_design",
+    "industry": "Consumer Electronics",
+    "region": "Europe",
+    "audience": "product teams",
+    "prompt": "Draft a post-purchase survey for a smart speaker, balancing rating questions with two open-ended ones."
+  },
+  {
+    "id": "mr_039_role_based",
+    "base_id": "mr_039",
+    "style": "role_based",
+    "task_type": "survey_design",
+    "industry": "Consumer Electronics",
+    "region": "Europe",
+    "audience": "product teams",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Draft a post-purchase survey for a smart speaker, balancing rating questions with two open-ended ones."
+  },
+  {
+    "id": "mr_039_few_shot",
+    "base_id": "mr_039",
+    "style": "few_shot",
+    "task_type": "survey_design",
+    "industry": "Consumer Electronics",
+    "region": "Europe",
+    "audience": "product teams",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Draft a post-purchase survey for a smart speaker, balancing rating questions with two open-ended ones."
+  },
+  {
+    "id": "mr_039_structured_cot",
+    "base_id": "mr_039",
+    "style": "structured_cot",
+    "task_type": "survey_design",
+    "industry": "Consumer Electronics",
+    "region": "Europe",
+    "audience": "product teams",
+    "prompt": "Draft a post-purchase survey for a smart speaker, balancing rating questions with two open-ended ones.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_040_plain",
+    "base_id": "mr_040",
+    "style": "plain",
+    "task_type": "bias_check",
+    "industry": "Lending",
+    "region": "North America",
+    "audience": "fairness reviewers",
+    "prompt": "Review a customer-feedback summary for a loan product and list wording that could stereotype customers by age, income, or ethnicity."
+  },
+  {
+    "id": "mr_040_role_based",
+    "base_id": "mr_040",
+    "style": "role_based",
+    "task_type": "bias_check",
+    "industry": "Lending",
+    "region": "North America",
+    "audience": "fairness reviewers",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Review a customer-feedback summary for a loan product and list wording that could stereotype customers by age, income, or ethnicity."
+  },
+  {
+    "id": "mr_040_few_shot",
+    "base_id": "mr_040",
+    "style": "few_shot",
+    "task_type": "bias_check",
+    "industry": "Lending",
+    "region": "North America",
+    "audience": "fairness reviewers",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Review a customer-feedback summary for a loan product and list wording that could stereotype customers by age, income, or ethnicity."
+  },
+  {
+    "id": "mr_040_structured_cot",
+    "base_id": "mr_040",
+    "style": "structured_cot",
+    "task_type": "bias_check",
+    "industry": "Lending",
+    "region": "North America",
+    "audience": "fairness reviewers",
+    "prompt": "Review a customer-feedback summary for a loan product and list wording that could stereotype customers by age, income, or ethnicity.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_041_plain",
+    "base_id": "mr_041",
+    "style": "plain",
+    "task_type": "bias_check",
+    "industry": "Hiring Platforms",
+    "region": "Global",
+    "audience": "research leads",
+    "prompt": "Explain how survey sampling could under-represent older or rural users of a job app, and suggest ways to correct for it."
+  },
+  {
+    "id": "mr_041_role_based",
+    "base_id": "mr_041",
+    "style": "role_based",
+    "task_type": "bias_check",
+    "industry": "Hiring Platforms",
+    "region": "Global",
+    "audience": "research leads",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Explain how survey sampling could under-represent older or rural users of a job app, and suggest ways to correct for it."
+  },
+  {
+    "id": "mr_041_few_shot",
+    "base_id": "mr_041",
+    "style": "few_shot",
+    "task_type": "bias_check",
+    "industry": "Hiring Platforms",
+    "region": "Global",
+    "audience": "research leads",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Explain how survey sampling could under-represent older or rural users of a job app, and suggest ways to correct for it."
+  },
+  {
+    "id": "mr_041_structured_cot",
+    "base_id": "mr_041",
+    "style": "structured_cot",
+    "task_type": "bias_check",
+    "industry": "Hiring Platforms",
+    "region": "Global",
+    "audience": "research leads",
+    "prompt": "Explain how survey sampling could under-represent older or rural users of a job app, and suggest ways to correct for it.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_042_plain",
+    "base_id": "mr_042",
+    "style": "plain",
+    "task_type": "bias_check",
+    "industry": "Retail",
+    "region": "East Asia",
+    "audience": "insights teams",
+    "prompt": "Rewrite a persona description that relies on gender stereotypes so it describes needs and behaviors instead."
+  },
+  {
+    "id": "mr_042_role_based",
+    "base_id": "mr_042",
+    "style": "role_based",
+    "task_type": "bias_check",
+    "industry": "Retail",
+    "region": "East Asia",
+    "audience": "insights teams",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Rewrite a persona description that relies on gender stereotypes so it describes needs and behaviors instead."
+  },
+  {
+    "id": "mr_042_few_shot",
+    "base_id": "mr_042",
+    "style": "few_shot",
+    "task_type": "bias_check",
+    "industry": "Retail",
+    "region": "East Asia",
+    "audience": "insights teams",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Rewrite a persona description that relies on gender stereotypes so it describes needs and behaviors instead."
+  },
+  {
+    "id": "mr_042_structured_cot",
+    "base_id": "mr_042",
+    "style": "structured_cot",
+    "task_type": "bias_check",
+    "industry": "Retail",
+    "region": "East Asia",
+    "audience": "insights teams",
+    "prompt": "Rewrite a persona description that relies on gender stereotypes so it describes needs and behaviors instead.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_043_plain",
+    "base_id": "mr_043",
+    "style": "plain",
+    "task_type": "theme_summary",
+    "industry": "Education",
+    "region": "Latin America",
+    "audience": "school administrators",
+    "prompt": "Summarize parent feedback themes about an online learning portal, separating technical problems from teaching concerns."
+  },
+  {
+    "id": "mr_043_role_based",
+    "base_id": "mr_043",
+    "style": "role_based",
+    "task_type": "theme_summary",
+    "industry": "Education",
+    "region": "Latin America",
+    "audience": "school administrators",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Summarize parent feedback themes about an online learning portal, separating technical problems from teaching concerns."
+  },
+  {
+    "id": "mr_043_few_shot",
+    "base_id": "mr_043",
+    "style": "few_shot",
+    "task_type": "theme_summary",
+    "industry": "Education",
+    "region": "Latin America",
+    "audience": "school administrators",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Summarize parent feedback themes about an online learning portal, separating technical problems from teaching concerns."
+  },
+  {
+    "id": "mr_043_structured_cot",
+    "base_id": "mr_043",
+    "style": "structured_cot",
+    "task_type": "theme_summary",
+    "industry": "Education",
+    "region": "Latin America",
+    "audience": "school administrators",
+    "prompt": "Summarize parent feedback themes about an online learning portal, separating technical problems from teaching concerns.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_044_plain",
+    "base_id": "mr_044",
+    "style": "plain",
+    "task_type": "competitor_comparison",
+    "industry": "Ride Sharing",
+    "region": "Southeast Asia",
+    "audience": "growth teams",
+    "prompt": "Compare rider views of two ride-hailing apps on safety, price, and wait time, and state what data would settle disagreements."
+  },
+  {
+    "id": "mr_044_role_based",
+    "base_id": "mr_044",
+    "style": "role_based",
+    "task_type": "competitor_comparison",
+    "industry": "Ride Sharing",
+    "region": "Southeast Asia",
+    "audience": "growth teams",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Compare rider views of two ride-hailing apps on safety, price, and wait time, and state what data would settle disagreements."
+  },
+  {
+    "id": "mr_044_few_shot",
+    "base_id": "mr_044",
+    "style": "few_shot",
+    "task_type": "competitor_comparison",
+    "industry": "Ride Sharing",
+    "region": "Southeast Asia",
+    "audience": "growth teams",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Compare rider views of two ride-hailing apps on safety, price, and wait time, and state what data would settle disagreements."
+  },
+  {
+    "id": "mr_044_structured_cot",
+    "base_id": "mr_044",
+    "style": "structured_cot",
+    "task_type": "competitor_comparison",
+    "industry": "Ride Sharing",
+    "region": "Southeast Asia",
+    "audience": "growth teams",
+    "prompt": "Compare rider views of two ride-hailing apps on safety, price, and wait time, and state what data would settle disagreements.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_045_plain",
+    "base_id": "mr_045",
+    "style": "plain",
+    "task_type": "journey_analysis",
+    "industry": "Banking",
+    "region": "Sub-Saharan Africa",
+    "audience": "mobile money teams",
+    "prompt": "Describe the journey of a first-time mobile money user from sign-up to first transfer and where they are likely to drop off."
+  },
+  {
+    "id": "mr_045_role_based",
+    "base_id": "mr_045",
+    "style": "role_based",
+    "task_type": "journey_analysis",
+    "industry": "Banking",
+    "region": "Sub-Saharan Africa",
+    "audience": "mobile money teams",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Describe the journey of a first-time mobile money user from sign-up to first transfer and where they are likely to drop off."
+  },
+  {
+    "id": "mr_045_few_shot",
+    "base_id": "mr_045",
+    "style": "few_shot",
+    "task_type": "journey_analysis",
+    "industry": "Banking",
+    "region": "Sub-Saharan Africa",
+    "audience": "mobile money teams",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Describe the journey of a first-time mobile money user from sign-up to first transfer and where they are likely to drop off."
+  },
+  {
+    "id": "mr_045_structured_cot",
+    "base_id": "mr_045",
+    "style": "structured_cot",
+    "task_type": "journey_analysis",
+    "industry": "Banking",
+    "region": "Sub-Saharan Africa",
+    "audience": "mobile money teams",
+    "prompt": "Describe the journey of a first-time mobile money user from sign-up to first transfer and where they are likely to drop off.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_046_plain",
+    "base_id": "mr_046",
+    "style": "plain",
+    "task_type": "trend_analysis",
+    "industry": "Retail",
+    "region": "North America",
+    "audience": "merchandising analysts",
+    "prompt": "Describe how return-reason categories might change around holiday seasons and what data would confirm the pattern."
+  },
+  {
+    "id": "mr_046_role_based",
+    "base_id": "mr_046",
+    "style": "role_based",
+    "task_type": "trend_analysis",
+    "industry": "Retail",
+    "region": "North America",
+    "audience": "merchandising analysts",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Describe how return-reason categories might change around holiday seasons and what data would confirm the pattern."
+  },
+  {
+    "id": "mr_046_few_shot",
+    "base_id": "mr_046",
+    "style": "few_shot",
+    "task_type": "trend_analysis",
+    "industry": "Retail",
+    "region": "North America",
+    "audience": "merchandising analysts",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Describe how return-reason categories might change around holiday seasons and what data would confirm the pattern."
+  },
+  {
+    "id": "mr_046_structured_cot",
+    "base_id": "mr_046",
+    "style": "structured_cot",
+    "task_type": "trend_analysis",
+    "industry": "Retail",
+    "region": "North America",
+    "audience": "merchandising analysts",
+    "prompt": "Describe how return-reason categories might change around holiday seasons and what data would confirm the pattern.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_047_plain",
+    "base_id": "mr_047",
+    "style": "plain",
+    "task_type": "concept_testing",
+    "industry": "Travel",
+    "region": "South Asia",
+    "audience": "tour operators",
+    "prompt": "Design a test of customer interest in a slow-travel package, including how to avoid sampling only affluent respondents."
+  },
+  {
+    "id": "mr_047_role_based",
+    "base_id": "mr_047",
+    "style": "role_based",
+    "task_type": "concept_testing",
+    "industry": "Travel",
+    "region": "South Asia",
+    "audience": "tour operators",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Design a test of customer interest in a slow-travel package, including how to avoid sampling only affluent respondents."
+  },
+  {
+    "id": "mr_047_few_shot",
+    "base_id": "mr_047",
+    "style": "few_shot",
+    "task_type": "concept_testing",
+    "industry": "Travel",
+    "region": "South Asia",
+    "audience": "tour operators",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Design a test of customer interest in a slow-travel package, including how to avoid sampling only affluent respondents."
+  },
+  {
+    "id": "mr_047_structured_cot",
+    "base_id": "mr_047",
+    "style": "structured_cot",
+    "task_type": "concept_testing",
+    "industry": "Travel",
+    "region": "South Asia",
+    "audience": "tour operators",
+    "prompt": "Design a test of customer interest in a slow-travel package, including how to avoid sampling only affluent respondents.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  },
+  {
+    "id": "mr_048_plain",
+    "base_id": "mr_048",
+    "style": "plain",
+    "task_type": "sentiment_synthesis",
+    "industry": "SaaS",
+    "region": "Australia",
+    "audience": "customer success leads",
+    "prompt": "Synthesize sentiment from renewal-call notes for a software product and separate price concerns from feature concerns."
+  },
+  {
+    "id": "mr_048_role_based",
+    "base_id": "mr_048",
+    "style": "role_based",
+    "task_type": "sentiment_synthesis",
+    "industry": "SaaS",
+    "region": "Australia",
+    "audience": "customer success leads",
+    "prompt": "You are an experienced market-research analyst. Be accurate, neutral, and say when evidence is limited.\n\nTask: Synthesize sentiment from renewal-call notes for a software product and separate price concerns from feature concerns."
+  },
+  {
+    "id": "mr_048_few_shot",
+    "base_id": "mr_048",
+    "style": "few_shot",
+    "task_type": "sentiment_synthesis",
+    "industry": "SaaS",
+    "region": "Australia",
+    "audience": "customer success leads",
+    "prompt": "Example task: Summarize themes in feedback about a coffee shop.\nExample answer: Three themes appear: (1) slow service at peak hours, (2) praise for drink quality, (3) confusion about loyalty rewards. Evidence is limited to the comments provided.\n\nNow do this task: Synthesize sentiment from renewal-call notes for a software product and separate price concerns from feature concerns."
+  },
+  {
+    "id": "mr_048_structured_cot",
+    "base_id": "mr_048",
+    "style": "structured_cot",
+    "task_type": "sentiment_synthesis",
+    "industry": "SaaS",
+    "region": "Australia",
+    "audience": "customer success leads",
+    "prompt": "Synthesize sentiment from renewal-call notes for a software product and separate price concerns from feature concerns.\n\nThink step by step. Then answer in this format:\nKey findings: ...\nEvidence needed: ...\nBias or limits: ...\nRecommendation: ..."
+  }
+]
