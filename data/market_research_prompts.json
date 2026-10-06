@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mr_001",
+    "task_type": "theme_summary",
+    "industry": "SaaS",
+    "region": "North America",
+    "audience": "product managers",
+    "prompt": "Summarize the three most common themes in customer complaints about a project-management app's onboarding experience. Quote no personal data and keep it under 120 words."
+  },
+  {
+    "id": "mr_002",
+    "task_type": "theme_summary",
+    "industry": "Retail",
+    "region": "Southeast Asia",
+    "audience": "e-commerce operations leads",
+    "prompt": "Summarize recurring customer feedback themes about delivery delays for an online fashion retailer. Separate issues the company controls from issues it does not."
+  },
+  {
+    "id": "mr_003",
+    "task_type": "competitor_comparison",
+    "industry": "Telecom",
+    "region": "Western Europe",
+    "audience": "marketing directors",
+    "prompt": "Compare how customers describe the service quality of two mobile carriers. List strengths and weaknesses of each, and state what evidence would be needed to confirm the comparison."
+  },
+  {
+    "id": "mr_004",
+    "task_type": "competitor_comparison",
+    "industry": "Healthcare",
+    "region": "Sub-Saharan Africa",
+    "audience": "clinic administrators",
+    "prompt": "Compare patient-reported experiences at a public clinic and a private clinic, focusing on wait time, cost, and communication. Avoid assuming either is better."
+  },
+  {
+    "id": "mr_005",
+    "task_type": "survey_design",
+    "industry": "Food and Beverage",
+    "region": "Latin America",
+    "audience": "brand managers",
+    "prompt": "Design a 10-question survey to measure customer interest in a new low-sugar soft drink. Include a mix of rating-scale and open-ended questions, and avoid leading wording."
+  },
+  {
+    "id": "mr_006",
+    "task_type": "survey_design",
+    "industry": "Banking",
+    "region": "South Asia",
+    "audience": "retail banking teams",
+    "prompt": "Write a short questionnaire to learn why customers do not use a bank's mobile app. Make the questions accessible to people with limited digital experience."
+  },
+  {
+    "id": "mr_007",
+    "task_type": "persona_generation",
+    "industry": "Travel",
+    "region": "Middle East",
+    "audience": "tourism marketers",
+    "prompt": "Create two customer personas for a boutique hotel, based only on stated needs and behaviors, not on stereotypes about nationality, gender, or religion."
+  },
+  {
+    "id": "mr_008",
+    "task_type": "persona_generation",
+    "industry": "Education",
+    "region": "North America",
+    "audience": "edtech founders",
+    "prompt": "Create three user personas for an online tutoring platform, including goals, frustrations, and the evidence you would need to validate each one."
+  },
+  {
+    "id": "mr_009",
+    "task_type": "trend_analysis",
+    "industry": "Consumer Electronics",
+    "region": "East Asia",
+    "audience": "category analysts",
+    "prompt": "Describe how complaint categories for wireless earbuds might shift across quarters, and list which metrics you would track to confirm the trend."
+  },
+  {
+    "id": "mr_010",
+    "task_type": "trend_analysis",
+    "industry": "Streaming",
+    "region": "Europe",
+    "audience": "subscription growth teams",
+    "prompt": "Analyze possible reasons for rising cancellation requests among streaming subscribers, separating pricing, content, and technical causes."
+  },
+  {
+    "id": "mr_011",
+    "task_type": "sentiment_synthesis",
+    "industry": "Automotive",
+    "region": "North America",
+    "audience": "customer-experience leads",
+    "prompt": "Synthesize overall sentiment from customer comments about a dealership's service department. Report positive, neutral, and negative shares as estimates and note the uncertainty."
+  },
+  {
+    "id": "mr_012",
+    "task_type": "sentiment_synthesis",
+    "industry": "Real Estate",
+    "region": "Australia",
+    "audience": "property managers",
+    "prompt": "Synthesize tenant sentiment about maintenance responsiveness. Flag any comments that are ambiguous or sarcastic rather than guessing their tone."
+  }
+]
