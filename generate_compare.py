@@ -21,7 +21,8 @@ tuned_model = PeftModel.from_pretrained(
 def generate(model, prompt):
     inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512)
     with torch.no_grad():
-        out = model.generate(**inputs, max_new_tokens=128, num_beams=2)
+      out = model.generate(**inputs, max_new_tokens=128, num_beams=4,
+                     no_repeat_ngram_size=3, repetition_penalty=1.3)
     return tokenizer.decode(out[0], skip_special_tokens=True)
 
 

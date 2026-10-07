@@ -1,250 +1,250 @@
 {
   "total_prompts": 192,
-  "identical_outputs": 52,
+  "identical_outputs": 72,
   "overall": {
-    "base_avg_words": 27.5,
-    "tuned_avg_words": 22.8,
-    "base_avg_rougeL": 0.2902,
-    "tuned_avg_rougeL": 0.3851,
-    "base_avg_format_hits": 0.08,
-    "tuned_avg_format_hits": 0.33
+    "base_avg_words": 15.9,
+    "tuned_avg_words": 16.9,
+    "base_avg_rougeL": 0.41,
+    "tuned_avg_rougeL": 0.4811,
+    "base_avg_format_hits": 0.11,
+    "tuned_avg_format_hits": 0.31
   },
   "by_style": {
     "few_shot": {
       "n": 48,
-      "base_avg_words": 12.8,
-      "tuned_avg_words": 14.2,
-      "base_avg_rougeL": 0.1467,
-      "tuned_avg_rougeL": 0.2213,
+      "base_avg_words": 10.9,
+      "tuned_avg_words": 12.6,
+      "base_avg_rougeL": 0.2066,
+      "tuned_avg_rougeL": 0.261,
       "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0
     },
     "plain": {
       "n": 48,
-      "base_avg_words": 23.8,
-      "tuned_avg_words": 23.3,
-      "base_avg_rougeL": 0.5551,
-      "tuned_avg_rougeL": 0.657,
+      "base_avg_words": 16.5,
+      "tuned_avg_words": 17.8,
+      "base_avg_rougeL": 0.6677,
+      "tuned_avg_rougeL": 0.7503,
       "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0
     },
     "role_based": {
       "n": 48,
-      "base_avg_words": 14.5,
-      "tuned_avg_words": 17.5,
-      "base_avg_rougeL": 0.1929,
-      "tuned_avg_rougeL": 0.2507,
+      "base_avg_words": 12.9,
+      "tuned_avg_words": 14.8,
+      "base_avg_rougeL": 0.2961,
+      "tuned_avg_rougeL": 0.405,
       "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0
     },
     "structured_cot": {
       "n": 48,
-      "base_avg_words": 59.1,
-      "tuned_avg_words": 36.1,
-      "base_avg_rougeL": 0.266,
-      "tuned_avg_rougeL": 0.4116,
-      "base_avg_format_hits": 0.33,
-      "tuned_avg_format_hits": 1.33
+      "base_avg_words": 23.3,
+      "tuned_avg_words": 22.7,
+      "base_avg_rougeL": 0.4697,
+      "tuned_avg_rougeL": 0.5079,
+      "base_avg_format_hits": 0.46,
+      "tuned_avg_format_hits": 1.23
     }
   },
   "by_task_type": {
     "bias_check": {
       "n": 12,
-      "base_avg_words": 29,
-      "tuned_avg_words": 27.6,
-      "base_avg_rougeL": 0.4008,
-      "tuned_avg_rougeL": 0.5481,
-      "base_avg_format_hits": 0.42,
-      "tuned_avg_format_hits": 1
+      "base_avg_words": 22.3,
+      "tuned_avg_words": 19.8,
+      "base_avg_rougeL": 0.6514,
+      "tuned_avg_rougeL": 0.6064,
+      "base_avg_format_hits": 0.33,
+      "tuned_avg_format_hits": 0.75
     },
     "competitor_comparison": {
       "n": 24,
-      "base_avg_words": 26.4,
-      "tuned_avg_words": 23.1,
-      "base_avg_rougeL": 0.367,
-      "tuned_avg_rougeL": 0.4542,
+      "base_avg_words": 19.5,
+      "tuned_avg_words": 18.8,
+      "base_avg_rougeL": 0.5237,
+      "tuned_avg_rougeL": 0.562,
       "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0.17
     },
     "concept_testing": {
       "n": 16,
-      "base_avg_words": 28.2,
-      "tuned_avg_words": 19,
-      "base_avg_rougeL": 0.2896,
-      "tuned_avg_rougeL": 0.3397,
-      "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0
+      "base_avg_words": 15.5,
+      "tuned_avg_words": 16.9,
+      "base_avg_rougeL": 0.3869,
+      "tuned_avg_rougeL": 0.4409,
+      "base_avg_format_hits": 0.19,
+      "tuned_avg_format_hits": 0.44
     },
     "journey_analysis": {
       "n": 16,
-      "base_avg_words": 28.1,
-      "tuned_avg_words": 25.9,
-      "base_avg_rougeL": 0.448,
-      "tuned_avg_rougeL": 0.5719,
+      "base_avg_words": 19.6,
+      "tuned_avg_words": 18.6,
+      "base_avg_rougeL": 0.5883,
+      "tuned_avg_rougeL": 0.6089,
       "base_avg_format_hits": 0.06,
-      "tuned_avg_format_hits": 0.56
+      "tuned_avg_format_hits": 0.25
     },
     "persona_generation": {
       "n": 20,
-      "base_avg_words": 26.2,
-      "tuned_avg_words": 24.6,
-      "base_avg_rougeL": 0.4244,
-      "tuned_avg_rougeL": 0.5522,
+      "base_avg_words": 17.8,
+      "tuned_avg_words": 20.3,
+      "base_avg_rougeL": 0.5875,
+      "tuned_avg_rougeL": 0.6909,
       "base_avg_format_hits": 0.05,
-      "tuned_avg_format_hits": 0.55
+      "tuned_avg_format_hits": 0.1
     },
     "questionnaire_design": {
       "n": 12,
-      "base_avg_words": 42.4,
-      "tuned_avg_words": 34.1,
-      "base_avg_rougeL": 0.1767,
-      "tuned_avg_rougeL": 0.2067,
-      "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0
+      "base_avg_words": 14.7,
+      "tuned_avg_words": 21.8,
+      "base_avg_rougeL": 0.2684,
+      "tuned_avg_rougeL": 0.2903,
+      "base_avg_format_hits": 0.25,
+      "tuned_avg_format_hits": 0.58
     },
     "sentiment_synthesis": {
       "n": 24,
-      "base_avg_words": 12.4,
-      "tuned_avg_words": 10.2,
-      "base_avg_rougeL": 0.2549,
-      "tuned_avg_rougeL": 0.3276,
-      "base_avg_format_hits": 0.21,
-      "tuned_avg_format_hits": 0.38
+      "base_avg_words": 8.8,
+      "tuned_avg_words": 12.3,
+      "base_avg_rougeL": 0.2821,
+      "tuned_avg_rougeL": 0.438,
+      "base_avg_format_hits": 0.12,
+      "tuned_avg_format_hits": 0.29
     },
     "survey_design": {
       "n": 20,
-      "base_avg_words": 32.6,
-      "tuned_avg_words": 21.8,
-      "base_avg_rougeL": 0.1542,
-      "tuned_avg_rougeL": 0.2429,
+      "base_avg_words": 15.7,
+      "tuned_avg_words": 17.9,
+      "base_avg_rougeL": 0.2471,
+      "tuned_avg_rougeL": 0.3255,
       "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0.2
+      "tuned_avg_format_hits": 0
     },
     "theme_summary": {
       "n": 24,
-      "base_avg_words": 21.8,
-      "tuned_avg_words": 16.9,
-      "base_avg_rougeL": 0.1446,
-      "tuned_avg_rougeL": 0.1961,
-      "base_avg_format_hits": 0.08,
+      "base_avg_words": 10.8,
+      "tuned_avg_words": 10.5,
+      "base_avg_rougeL": 0.1702,
+      "tuned_avg_rougeL": 0.2665,
+      "base_avg_format_hits": 0.12,
       "tuned_avg_format_hits": 0.29
     },
     "trend_analysis": {
       "n": 24,
-      "base_avg_words": 37.4,
-      "tuned_avg_words": 32.6,
-      "base_avg_rougeL": 0.2923,
-      "tuned_avg_rougeL": 0.4554,
-      "base_avg_format_hits": 0.08,
-      "tuned_avg_format_hits": 0.33
+      "base_avg_words": 18.4,
+      "tuned_avg_words": 17.7,
+      "base_avg_rougeL": 0.4985,
+      "tuned_avg_rougeL": 0.5866,
+      "base_avg_format_hits": 0.17,
+      "tuned_avg_format_hits": 0.5
     }
   },
   "by_region": {
     "Australia": {
       "n": 12,
-      "base_avg_words": 10.5,
-      "tuned_avg_words": 12.1,
-      "base_avg_rougeL": 0.3592,
-      "tuned_avg_rougeL": 0.4171,
+      "base_avg_words": 13.2,
+      "tuned_avg_words": 15.9,
+      "base_avg_rougeL": 0.4795,
+      "tuned_avg_rougeL": 0.572,
       "base_avg_format_hits": 0.08,
-      "tuned_avg_format_hits": 0.42
+      "tuned_avg_format_hits": 0.17
     },
     "East Asia": {
       "n": 20,
-      "base_avg_words": 40.9,
-      "tuned_avg_words": 43.0,
-      "base_avg_rougeL": 0.2669,
-      "tuned_avg_rougeL": 0.3142,
-      "base_avg_format_hits": 0.2,
-      "tuned_avg_format_hits": 0.45
+      "base_avg_words": 16.6,
+      "tuned_avg_words": 20.6,
+      "base_avg_rougeL": 0.4067,
+      "tuned_avg_rougeL": 0.4499,
+      "base_avg_format_hits": 0.15,
+      "tuned_avg_format_hits": 0.6
     },
     "Europe": {
       "n": 24,
-      "base_avg_words": 27.9,
-      "tuned_avg_words": 17.3,
-      "base_avg_rougeL": 0.2896,
-      "tuned_avg_rougeL": 0.3761,
-      "base_avg_format_hits": 0.04,
-      "tuned_avg_format_hits": 0
+      "base_avg_words": 14,
+      "tuned_avg_words": 16.2,
+      "base_avg_rougeL": 0.4223,
+      "tuned_avg_rougeL": 0.504,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0.25
     },
     "Global": {
       "n": 4,
-      "base_avg_words": 33.5,
-      "tuned_avg_words": 42.8,
-      "base_avg_rougeL": 0.16,
-      "tuned_avg_rougeL": 0.331,
-      "base_avg_format_hits": 0,
+      "base_avg_words": 24,
+      "tuned_avg_words": 22.5,
+      "base_avg_rougeL": 0.4886,
+      "tuned_avg_rougeL": 0.4863,
+      "base_avg_format_hits": 0.75,
       "tuned_avg_format_hits": 1
     },
     "Latin America": {
       "n": 20,
-      "base_avg_words": 36.2,
-      "tuned_avg_words": 30.3,
-      "base_avg_rougeL": 0.2554,
-      "tuned_avg_rougeL": 0.3062,
+      "base_avg_words": 18.1,
+      "tuned_avg_words": 19.4,
+      "base_avg_rougeL": 0.3505,
+      "tuned_avg_rougeL": 0.4098,
       "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0.05
+      "tuned_avg_format_hits": 0
     },
     "Middle East": {
       "n": 12,
-      "base_avg_words": 23.9,
-      "tuned_avg_words": 28.9,
-      "base_avg_rougeL": 0.3636,
-      "tuned_avg_rougeL": 0.6138,
+      "base_avg_words": 16.8,
+      "tuned_avg_words": 17.2,
+      "base_avg_rougeL": 0.5867,
+      "tuned_avg_rougeL": 0.6415,
       "base_avg_format_hits": 0.08,
-      "tuned_avg_format_hits": 1
+      "tuned_avg_format_hits": 0
     },
     "North America": {
       "n": 36,
-      "base_avg_words": 27.6,
-      "tuned_avg_words": 19.6,
-      "base_avg_rougeL": 0.3077,
-      "tuned_avg_rougeL": 0.4292,
-      "base_avg_format_hits": 0.22,
-      "tuned_avg_format_hits": 0.58
+      "base_avg_words": 16.9,
+      "tuned_avg_words": 18.2,
+      "base_avg_rougeL": 0.4143,
+      "tuned_avg_rougeL": 0.5088,
+      "base_avg_format_hits": 0.14,
+      "tuned_avg_format_hits": 0.42
     },
     "South Asia": {
       "n": 20,
-      "base_avg_words": 20.4,
-      "tuned_avg_words": 13.2,
-      "base_avg_rougeL": 0.3049,
-      "tuned_avg_rougeL": 0.3595,
-      "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0.1
+      "base_avg_words": 13,
+      "tuned_avg_words": 13.8,
+      "base_avg_rougeL": 0.3356,
+      "tuned_avg_rougeL": 0.4454,
+      "base_avg_format_hits": 0.25,
+      "tuned_avg_format_hits": 0.3
     },
     "Southeast Asia": {
       "n": 12,
-      "base_avg_words": 21.5,
-      "tuned_avg_words": 16,
-      "base_avg_rougeL": 0.3317,
-      "tuned_avg_rougeL": 0.4161,
+      "base_avg_words": 17.3,
+      "tuned_avg_words": 13.3,
+      "base_avg_rougeL": 0.4325,
+      "tuned_avg_rougeL": 0.398,
       "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0.08
     },
     "Southern Europe": {
       "n": 4,
-      "base_avg_words": 5.5,
-      "tuned_avg_words": 6.5,
-      "base_avg_rougeL": 0.1296,
-      "tuned_avg_rougeL": 0.1531,
+      "base_avg_words": 6.8,
+      "tuned_avg_words": 11.8,
+      "base_avg_rougeL": 0.1328,
+      "tuned_avg_rougeL": 0.3833,
       "base_avg_format_hits": 0.25,
       "tuned_avg_format_hits": 0.25
     },
     "Sub-Saharan Africa": {
       "n": 20,
-      "base_avg_words": 28.4,
-      "tuned_avg_words": 20.4,
-      "base_avg_rougeL": 0.2866,
-      "tuned_avg_rougeL": 0.4183,
-      "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0.4
+      "base_avg_words": 17.2,
+      "tuned_avg_words": 16.1,
+      "base_avg_rougeL": 0.4213,
+      "tuned_avg_rougeL": 0.4947,
+      "base_avg_format_hits": 0.15,
+      "tuned_avg_format_hits": 0.6
     },
     "Western Europe": {
       "n": 8,
-      "base_avg_words": 34.6,
-      "tuned_avg_words": 29.9,
-      "base_avg_rougeL": 0.1999,
-      "tuned_avg_rougeL": 0.2757,
+      "base_avg_words": 14.9,
+      "tuned_avg_words": 15,
+      "base_avg_rougeL": 0.3652,
+      "tuned_avg_rougeL": 0.3924,
       "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0
     }
@@ -252,282 +252,282 @@
   "by_industry": {
     "Agriculture": {
       "n": 4,
-      "base_avg_words": 32.8,
-      "tuned_avg_words": 10.5,
-      "base_avg_rougeL": 0.2191,
-      "tuned_avg_rougeL": 0.2862,
-      "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0
+      "base_avg_words": 14.8,
+      "tuned_avg_words": 17,
+      "base_avg_rougeL": 0.4257,
+      "tuned_avg_rougeL": 0.4899,
+      "base_avg_format_hits": 0.75,
+      "tuned_avg_format_hits": 0.75
     },
     "Airlines": {
       "n": 8,
-      "base_avg_words": 17,
-      "tuned_avg_words": 17.8,
-      "base_avg_rougeL": 0.2529,
-      "tuned_avg_rougeL": 0.3383,
-      "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0.5
+      "base_avg_words": 11.2,
+      "tuned_avg_words": 11.5,
+      "base_avg_rougeL": 0.3664,
+      "tuned_avg_rougeL": 0.3787,
+      "base_avg_format_hits": 0.12,
+      "tuned_avg_format_hits": 0
     },
     "Automotive": {
       "n": 4,
-      "base_avg_words": 14.5,
-      "tuned_avg_words": 12.2,
-      "base_avg_rougeL": 0.2431,
-      "tuned_avg_rougeL": 0.2721,
-      "base_avg_format_hits": 1,
-      "tuned_avg_format_hits": 0
+      "base_avg_words": 12,
+      "tuned_avg_words": 17.8,
+      "base_avg_rougeL": 0.2233,
+      "tuned_avg_rougeL": 0.4502,
+      "base_avg_format_hits": 0.25,
+      "tuned_avg_format_hits": 1
     },
     "Banking": {
       "n": 12,
-      "base_avg_words": 21.5,
-      "tuned_avg_words": 17.7,
-      "base_avg_rougeL": 0.4423,
-      "tuned_avg_rougeL": 0.5111,
+      "base_avg_words": 16.8,
+      "tuned_avg_words": 17.9,
+      "base_avg_rougeL": 0.4963,
+      "tuned_avg_rougeL": 0.5596,
       "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0.33
+      "tuned_avg_format_hits": 0
     },
     "Consumer Electronics": {
       "n": 8,
-      "base_avg_words": 29.2,
-      "tuned_avg_words": 22.5,
-      "base_avg_rougeL": 0.2634,
-      "tuned_avg_rougeL": 0.3755,
-      "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0.5
+      "base_avg_words": 16.1,
+      "tuned_avg_words": 18.4,
+      "base_avg_rougeL": 0.4883,
+      "tuned_avg_rougeL": 0.5548,
+      "base_avg_format_hits": 0.12,
+      "tuned_avg_format_hits": 0.38
     },
     "E-commerce": {
       "n": 4,
-      "base_avg_words": 17,
-      "tuned_avg_words": 19,
-      "base_avg_rougeL": 0.499,
-      "tuned_avg_rougeL": 0.6057,
+      "base_avg_words": 20.2,
+      "tuned_avg_words": 19.8,
+      "base_avg_rougeL": 0.5798,
+      "tuned_avg_rougeL": 0.6029,
       "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0
     },
     "Education": {
       "n": 12,
-      "base_avg_words": 26.6,
-      "tuned_avg_words": 24.3,
-      "base_avg_rougeL": 0.233,
-      "tuned_avg_rougeL": 0.419,
+      "base_avg_words": 19.2,
+      "tuned_avg_words": 16.5,
+      "base_avg_rougeL": 0.3178,
+      "tuned_avg_rougeL": 0.4662,
       "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0.33
     },
     "Electric Vehicles": {
       "n": 4,
-      "base_avg_words": 32.8,
-      "tuned_avg_words": 21.8,
-      "base_avg_rougeL": 0.3067,
-      "tuned_avg_rougeL": 0.5192,
+      "base_avg_words": 18.5,
+      "tuned_avg_words": 20.8,
+      "base_avg_rougeL": 0.4246,
+      "tuned_avg_rougeL": 0.5466,
       "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0
+      "tuned_avg_format_hits": 0.5
     },
     "Fintech": {
       "n": 4,
-      "base_avg_words": 58.5,
-      "tuned_avg_words": 37.8,
-      "base_avg_rougeL": 0.3155,
-      "tuned_avg_rougeL": 0.3834,
+      "base_avg_words": 15,
+      "tuned_avg_words": 18,
+      "base_avg_rougeL": 0.3307,
+      "tuned_avg_rougeL": 0.3317,
       "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0
     },
     "Fitness": {
       "n": 4,
-      "base_avg_words": 8.8,
+      "base_avg_words": 9.8,
       "tuned_avg_words": 8.8,
-      "base_avg_rougeL": 0.2074,
-      "tuned_avg_rougeL": 0.2074,
+      "base_avg_rougeL": 0.2058,
+      "tuned_avg_rougeL": 0.191,
       "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0
     },
     "Food Delivery": {
       "n": 4,
-      "base_avg_words": 52,
-      "tuned_avg_words": 51.8,
-      "base_avg_rougeL": 0.1411,
-      "tuned_avg_rougeL": 0.1613,
-      "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0
+      "base_avg_words": 14.5,
+      "tuned_avg_words": 18.2,
+      "base_avg_rougeL": 0.3552,
+      "tuned_avg_rougeL": 0.5029,
+      "base_avg_format_hits": 0.25,
+      "tuned_avg_format_hits": 0.25
     },
     "Food and Beverage": {
       "n": 8,
-      "base_avg_words": 20.5,
-      "tuned_avg_words": 19.9,
-      "base_avg_rougeL": 0.1662,
-      "tuned_avg_rougeL": 0.2618,
+      "base_avg_words": 8.8,
+      "tuned_avg_words": 12.1,
+      "base_avg_rougeL": 0.2162,
+      "tuned_avg_rougeL": 0.3556,
       "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0
     },
     "Gaming": {
       "n": 4,
-      "base_avg_words": 17,
-      "tuned_avg_words": 27.8,
-      "base_avg_rougeL": 0.5646,
-      "tuned_avg_rougeL": 0.4116,
+      "base_avg_words": 21,
+      "tuned_avg_words": 21,
+      "base_avg_rougeL": 0.7309,
+      "tuned_avg_rougeL": 0.7309,
       "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0.25
+      "tuned_avg_format_hits": 0
     },
     "Grocery": {
       "n": 4,
-      "base_avg_words": 16,
+      "base_avg_words": 18.5,
       "tuned_avg_words": 14.8,
-      "base_avg_rougeL": 0.3563,
-      "tuned_avg_rougeL": 0.402,
+      "base_avg_rougeL": 0.5575,
+      "tuned_avg_rougeL": 0.4855,
       "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0
     },
     "Healthcare": {
       "n": 12,
-      "base_avg_words": 25.3,
-      "tuned_avg_words": 21.1,
-      "base_avg_rougeL": 0.3732,
-      "tuned_avg_rougeL": 0.4232,
+      "base_avg_words": 15.7,
+      "tuned_avg_words": 15.9,
+      "base_avg_rougeL": 0.4297,
+      "tuned_avg_rougeL": 0.5272,
       "base_avg_format_hits": 0.08,
-      "tuned_avg_format_hits": 0.58
+      "tuned_avg_format_hits": 0.83
     },
     "Hiring Platforms": {
       "n": 4,
-      "base_avg_words": 33.5,
-      "tuned_avg_words": 42.8,
-      "base_avg_rougeL": 0.16,
-      "tuned_avg_rougeL": 0.331,
-      "base_avg_format_hits": 0,
+      "base_avg_words": 24,
+      "tuned_avg_words": 22.5,
+      "base_avg_rougeL": 0.4886,
+      "tuned_avg_rougeL": 0.4863,
+      "base_avg_format_hits": 0.75,
       "tuned_avg_format_hits": 1
     },
     "Home Goods": {
       "n": 4,
-      "base_avg_words": 36.5,
-      "tuned_avg_words": 16.8,
-      "base_avg_rougeL": 0.3551,
-      "tuned_avg_rougeL": 0.4102,
+      "base_avg_words": 19.8,
+      "tuned_avg_words": 20.8,
+      "base_avg_rougeL": 0.5657,
+      "tuned_avg_rougeL": 0.6122,
       "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0
+      "tuned_avg_format_hits": 1
     },
     "Hospitality": {
       "n": 4,
-      "base_avg_words": 5.5,
-      "tuned_avg_words": 6.5,
-      "base_avg_rougeL": 0.1296,
-      "tuned_avg_rougeL": 0.1531,
+      "base_avg_words": 6.8,
+      "tuned_avg_words": 11.8,
+      "base_avg_rougeL": 0.1328,
+      "tuned_avg_rougeL": 0.3833,
       "base_avg_format_hits": 0.25,
       "tuned_avg_format_hits": 0.25
     },
     "Insurance": {
       "n": 4,
-      "base_avg_words": 85.8,
-      "tuned_avg_words": 83,
-      "base_avg_rougeL": 0.1036,
-      "tuned_avg_rougeL": 0.1265,
+      "base_avg_words": 19.5,
+      "tuned_avg_words": 39.8,
+      "base_avg_rougeL": 0.1737,
+      "tuned_avg_rougeL": 0.1899,
       "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0
+      "tuned_avg_format_hits": 1
     },
     "Lending": {
       "n": 4,
-      "base_avg_words": 39.5,
-      "tuned_avg_words": 25.2,
-      "base_avg_rougeL": 0.5522,
-      "tuned_avg_rougeL": 0.7826,
+      "base_avg_words": 23,
+      "tuned_avg_words": 23.8,
+      "base_avg_rougeL": 0.7731,
+      "tuned_avg_rougeL": 0.7806,
       "base_avg_format_hits": 0.25,
-      "tuned_avg_format_hits": 1
+      "tuned_avg_format_hits": 0.5
     },
     "Pharmacy": {
       "n": 4,
-      "base_avg_words": 30.5,
-      "tuned_avg_words": 16.2,
-      "base_avg_rougeL": 0.1333,
-      "tuned_avg_rougeL": 0.2239,
+      "base_avg_words": 16,
+      "tuned_avg_words": 21.2,
+      "base_avg_rougeL": 0.1361,
+      "tuned_avg_rougeL": 0.1867,
       "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 1
+      "tuned_avg_format_hits": 0
     },
     "Public Transit": {
       "n": 4,
-      "base_avg_words": 60,
-      "tuned_avg_words": 41.5,
-      "base_avg_rougeL": 0.1558,
-      "tuned_avg_rougeL": 0.2897,
+      "base_avg_words": 29.5,
+      "tuned_avg_words": 29.2,
+      "base_avg_rougeL": 0.3471,
+      "tuned_avg_rougeL": 0.3701,
       "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0
     },
     "Real Estate": {
       "n": 4,
-      "base_avg_words": 6.5,
-      "tuned_avg_words": 8,
-      "base_avg_rougeL": 0.2545,
-      "tuned_avg_rougeL": 0.3327,
+      "base_avg_words": 8,
+      "tuned_avg_words": 12.8,
+      "base_avg_rougeL": 0.3327,
+      "tuned_avg_rougeL": 0.4826,
       "base_avg_format_hits": 0.25,
       "tuned_avg_format_hits": 0.25
     },
     "Retail": {
       "n": 20,
-      "base_avg_words": 18.9,
-      "tuned_avg_words": 14.8,
-      "base_avg_rougeL": 0.3758,
-      "tuned_avg_rougeL": 0.4952,
-      "base_avg_format_hits": 0.25,
-      "tuned_avg_format_hits": 0.65
+      "base_avg_words": 16.1,
+      "tuned_avg_words": 14.2,
+      "base_avg_rougeL": 0.5098,
+      "tuned_avg_rougeL": 0.5486,
+      "base_avg_format_hits": 0.1,
+      "tuned_avg_format_hits": 0.3
     },
     "Ride Sharing": {
       "n": 4,
-      "base_avg_words": 18.2,
-      "tuned_avg_words": 19,
-      "base_avg_rougeL": 0.4849,
-      "tuned_avg_rougeL": 0.5702,
+      "base_avg_words": 17.8,
+      "tuned_avg_words": 19.5,
+      "base_avg_rougeL": 0.5224,
+      "tuned_avg_rougeL": 0.5609,
       "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0
     },
     "SaaS": {
       "n": 8,
-      "base_avg_words": 22.1,
-      "tuned_avg_words": 21.5,
-      "base_avg_rougeL": 0.2918,
-      "tuned_avg_rougeL": 0.3625,
+      "base_avg_words": 13.2,
+      "tuned_avg_words": 13.8,
+      "base_avg_rougeL": 0.3873,
+      "tuned_avg_rougeL": 0.4074,
       "base_avg_format_hits": 0.12,
-      "tuned_avg_format_hits": 1
+      "tuned_avg_format_hits": 0.5
     },
     "Software": {
       "n": 4,
-      "base_avg_words": 23.8,
-      "tuned_avg_words": 29.2,
-      "base_avg_rougeL": 0.2284,
-      "tuned_avg_rougeL": 0.1861,
-      "base_avg_format_hits": 0,
+      "base_avg_words": 8.8,
+      "tuned_avg_words": 7.8,
+      "base_avg_rougeL": 0.1638,
+      "tuned_avg_rougeL": 0.2893,
+      "base_avg_format_hits": 0.25,
       "tuned_avg_format_hits": 0.25
     },
     "Streaming": {
       "n": 8,
-      "base_avg_words": 43.4,
-      "tuned_avg_words": 27.6,
-      "base_avg_rougeL": 0.3295,
-      "tuned_avg_rougeL": 0.4981,
-      "base_avg_format_hits": 0.12,
+      "base_avg_words": 21.5,
+      "tuned_avg_words": 17.9,
+      "base_avg_rougeL": 0.5623,
+      "tuned_avg_rougeL": 0.5987,
+      "base_avg_format_hits": 0,
       "tuned_avg_format_hits": 0
     },
     "Telecom": {
       "n": 8,
-      "base_avg_words": 42.2,
-      "tuned_avg_words": 28.9,
-      "base_avg_rougeL": 0.1444,
-      "tuned_avg_rougeL": 0.2627,
+      "base_avg_words": 13,
+      "tuned_avg_words": 15.5,
+      "base_avg_rougeL": 0.346,
+      "tuned_avg_rougeL": 0.4404,
       "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0
+      "tuned_avg_format_hits": 0.12
     },
     "Travel": {
       "n": 8,
-      "base_avg_words": 20.4,
-      "tuned_avg_words": 26.9,
-      "base_avg_rougeL": 0.2901,
-      "tuned_avg_rougeL": 0.5037,
-      "base_avg_format_hits": 0.12,
-      "tuned_avg_format_hits": 0.5
+      "base_avg_words": 20.6,
+      "tuned_avg_words": 20.9,
+      "base_avg_rougeL": 0.5914,
+      "tuned_avg_rougeL": 0.6315,
+      "base_avg_format_hits": 0.38,
+      "tuned_avg_format_hits": 0.38
     },
     "Utilities": {
       "n": 4,
-      "base_avg_words": 28.2,
-      "tuned_avg_words": 8,
-      "base_avg_rougeL": 0.0175,
-      "tuned_avg_rougeL": 0.0908,
-      "base_avg_format_hits": 0,
-      "tuned_avg_format_hits": 0
+      "base_avg_words": 1.2,
+      "tuned_avg_words": 6,
+      "base_avg_rougeL": 0.0147,
+      "tuned_avg_rougeL": 0.2803,
+      "base_avg_format_hits": 0.25,
+      "tuned_avg_format_hits": 0.25
     }
   }
 }
