@@ -1,0 +1,533 @@
+{
+  "total_prompts": 192,
+  "identical_outputs": 52,
+  "overall": {
+    "base_avg_words": 27.5,
+    "tuned_avg_words": 22.8,
+    "base_avg_rougeL": 0.2902,
+    "tuned_avg_rougeL": 0.3851,
+    "base_avg_format_hits": 0.08,
+    "tuned_avg_format_hits": 0.33
+  },
+  "by_style": {
+    "few_shot": {
+      "n": 48,
+      "base_avg_words": 12.8,
+      "tuned_avg_words": 14.2,
+      "base_avg_rougeL": 0.1467,
+      "tuned_avg_rougeL": 0.2213,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "plain": {
+      "n": 48,
+      "base_avg_words": 23.8,
+      "tuned_avg_words": 23.3,
+      "base_avg_rougeL": 0.5551,
+      "tuned_avg_rougeL": 0.657,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "role_based": {
+      "n": 48,
+      "base_avg_words": 14.5,
+      "tuned_avg_words": 17.5,
+      "base_avg_rougeL": 0.1929,
+      "tuned_avg_rougeL": 0.2507,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "structured_cot": {
+      "n": 48,
+      "base_avg_words": 59.1,
+      "tuned_avg_words": 36.1,
+      "base_avg_rougeL": 0.266,
+      "tuned_avg_rougeL": 0.4116,
+      "base_avg_format_hits": 0.33,
+      "tuned_avg_format_hits": 1.33
+    }
+  },
+  "by_task_type": {
+    "bias_check": {
+      "n": 12,
+      "base_avg_words": 29,
+      "tuned_avg_words": 27.6,
+      "base_avg_rougeL": 0.4008,
+      "tuned_avg_rougeL": 0.5481,
+      "base_avg_format_hits": 0.42,
+      "tuned_avg_format_hits": 1
+    },
+    "competitor_comparison": {
+      "n": 24,
+      "base_avg_words": 26.4,
+      "tuned_avg_words": 23.1,
+      "base_avg_rougeL": 0.367,
+      "tuned_avg_rougeL": 0.4542,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0.17
+    },
+    "concept_testing": {
+      "n": 16,
+      "base_avg_words": 28.2,
+      "tuned_avg_words": 19,
+      "base_avg_rougeL": 0.2896,
+      "tuned_avg_rougeL": 0.3397,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "journey_analysis": {
+      "n": 16,
+      "base_avg_words": 28.1,
+      "tuned_avg_words": 25.9,
+      "base_avg_rougeL": 0.448,
+      "tuned_avg_rougeL": 0.5719,
+      "base_avg_format_hits": 0.06,
+      "tuned_avg_format_hits": 0.56
+    },
+    "persona_generation": {
+      "n": 20,
+      "base_avg_words": 26.2,
+      "tuned_avg_words": 24.6,
+      "base_avg_rougeL": 0.4244,
+      "tuned_avg_rougeL": 0.5522,
+      "base_avg_format_hits": 0.05,
+      "tuned_avg_format_hits": 0.55
+    },
+    "questionnaire_design": {
+      "n": 12,
+      "base_avg_words": 42.4,
+      "tuned_avg_words": 34.1,
+      "base_avg_rougeL": 0.1767,
+      "tuned_avg_rougeL": 0.2067,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "sentiment_synthesis": {
+      "n": 24,
+      "base_avg_words": 12.4,
+      "tuned_avg_words": 10.2,
+      "base_avg_rougeL": 0.2549,
+      "tuned_avg_rougeL": 0.3276,
+      "base_avg_format_hits": 0.21,
+      "tuned_avg_format_hits": 0.38
+    },
+    "survey_design": {
+      "n": 20,
+      "base_avg_words": 32.6,
+      "tuned_avg_words": 21.8,
+      "base_avg_rougeL": 0.1542,
+      "tuned_avg_rougeL": 0.2429,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0.2
+    },
+    "theme_summary": {
+      "n": 24,
+      "base_avg_words": 21.8,
+      "tuned_avg_words": 16.9,
+      "base_avg_rougeL": 0.1446,
+      "tuned_avg_rougeL": 0.1961,
+      "base_avg_format_hits": 0.08,
+      "tuned_avg_format_hits": 0.29
+    },
+    "trend_analysis": {
+      "n": 24,
+      "base_avg_words": 37.4,
+      "tuned_avg_words": 32.6,
+      "base_avg_rougeL": 0.2923,
+      "tuned_avg_rougeL": 0.4554,
+      "base_avg_format_hits": 0.08,
+      "tuned_avg_format_hits": 0.33
+    }
+  },
+  "by_region": {
+    "Australia": {
+      "n": 12,
+      "base_avg_words": 10.5,
+      "tuned_avg_words": 12.1,
+      "base_avg_rougeL": 0.3592,
+      "tuned_avg_rougeL": 0.4171,
+      "base_avg_format_hits": 0.08,
+      "tuned_avg_format_hits": 0.42
+    },
+    "East Asia": {
+      "n": 20,
+      "base_avg_words": 40.9,
+      "tuned_avg_words": 43.0,
+      "base_avg_rougeL": 0.2669,
+      "tuned_avg_rougeL": 0.3142,
+      "base_avg_format_hits": 0.2,
+      "tuned_avg_format_hits": 0.45
+    },
+    "Europe": {
+      "n": 24,
+      "base_avg_words": 27.9,
+      "tuned_avg_words": 17.3,
+      "base_avg_rougeL": 0.2896,
+      "tuned_avg_rougeL": 0.3761,
+      "base_avg_format_hits": 0.04,
+      "tuned_avg_format_hits": 0
+    },
+    "Global": {
+      "n": 4,
+      "base_avg_words": 33.5,
+      "tuned_avg_words": 42.8,
+      "base_avg_rougeL": 0.16,
+      "tuned_avg_rougeL": 0.331,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 1
+    },
+    "Latin America": {
+      "n": 20,
+      "base_avg_words": 36.2,
+      "tuned_avg_words": 30.3,
+      "base_avg_rougeL": 0.2554,
+      "tuned_avg_rougeL": 0.3062,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0.05
+    },
+    "Middle East": {
+      "n": 12,
+      "base_avg_words": 23.9,
+      "tuned_avg_words": 28.9,
+      "base_avg_rougeL": 0.3636,
+      "tuned_avg_rougeL": 0.6138,
+      "base_avg_format_hits": 0.08,
+      "tuned_avg_format_hits": 1
+    },
+    "North America": {
+      "n": 36,
+      "base_avg_words": 27.6,
+      "tuned_avg_words": 19.6,
+      "base_avg_rougeL": 0.3077,
+      "tuned_avg_rougeL": 0.4292,
+      "base_avg_format_hits": 0.22,
+      "tuned_avg_format_hits": 0.58
+    },
+    "South Asia": {
+      "n": 20,
+      "base_avg_words": 20.4,
+      "tuned_avg_words": 13.2,
+      "base_avg_rougeL": 0.3049,
+      "tuned_avg_rougeL": 0.3595,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0.1
+    },
+    "Southeast Asia": {
+      "n": 12,
+      "base_avg_words": 21.5,
+      "tuned_avg_words": 16,
+      "base_avg_rougeL": 0.3317,
+      "tuned_avg_rougeL": 0.4161,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0.08
+    },
+    "Southern Europe": {
+      "n": 4,
+      "base_avg_words": 5.5,
+      "tuned_avg_words": 6.5,
+      "base_avg_rougeL": 0.1296,
+      "tuned_avg_rougeL": 0.1531,
+      "base_avg_format_hits": 0.25,
+      "tuned_avg_format_hits": 0.25
+    },
+    "Sub-Saharan Africa": {
+      "n": 20,
+      "base_avg_words": 28.4,
+      "tuned_avg_words": 20.4,
+      "base_avg_rougeL": 0.2866,
+      "tuned_avg_rougeL": 0.4183,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0.4
+    },
+    "Western Europe": {
+      "n": 8,
+      "base_avg_words": 34.6,
+      "tuned_avg_words": 29.9,
+      "base_avg_rougeL": 0.1999,
+      "tuned_avg_rougeL": 0.2757,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    }
+  },
+  "by_industry": {
+    "Agriculture": {
+      "n": 4,
+      "base_avg_words": 32.8,
+      "tuned_avg_words": 10.5,
+      "base_avg_rougeL": 0.2191,
+      "tuned_avg_rougeL": 0.2862,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "Airlines": {
+      "n": 8,
+      "base_avg_words": 17,
+      "tuned_avg_words": 17.8,
+      "base_avg_rougeL": 0.2529,
+      "tuned_avg_rougeL": 0.3383,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0.5
+    },
+    "Automotive": {
+      "n": 4,
+      "base_avg_words": 14.5,
+      "tuned_avg_words": 12.2,
+      "base_avg_rougeL": 0.2431,
+      "tuned_avg_rougeL": 0.2721,
+      "base_avg_format_hits": 1,
+      "tuned_avg_format_hits": 0
+    },
+    "Banking": {
+      "n": 12,
+      "base_avg_words": 21.5,
+      "tuned_avg_words": 17.7,
+      "base_avg_rougeL": 0.4423,
+      "tuned_avg_rougeL": 0.5111,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0.33
+    },
+    "Consumer Electronics": {
+      "n": 8,
+      "base_avg_words": 29.2,
+      "tuned_avg_words": 22.5,
+      "base_avg_rougeL": 0.2634,
+      "tuned_avg_rougeL": 0.3755,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0.5
+    },
+    "E-commerce": {
+      "n": 4,
+      "base_avg_words": 17,
+      "tuned_avg_words": 19,
+      "base_avg_rougeL": 0.499,
+      "tuned_avg_rougeL": 0.6057,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "Education": {
+      "n": 12,
+      "base_avg_words": 26.6,
+      "tuned_avg_words": 24.3,
+      "base_avg_rougeL": 0.233,
+      "tuned_avg_rougeL": 0.419,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0.33
+    },
+    "Electric Vehicles": {
+      "n": 4,
+      "base_avg_words": 32.8,
+      "tuned_avg_words": 21.8,
+      "base_avg_rougeL": 0.3067,
+      "tuned_avg_rougeL": 0.5192,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "Fintech": {
+      "n": 4,
+      "base_avg_words": 58.5,
+      "tuned_avg_words": 37.8,
+      "base_avg_rougeL": 0.3155,
+      "tuned_avg_rougeL": 0.3834,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "Fitness": {
+      "n": 4,
+      "base_avg_words": 8.8,
+      "tuned_avg_words": 8.8,
+      "base_avg_rougeL": 0.2074,
+      "tuned_avg_rougeL": 0.2074,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "Food Delivery": {
+      "n": 4,
+      "base_avg_words": 52,
+      "tuned_avg_words": 51.8,
+      "base_avg_rougeL": 0.1411,
+      "tuned_avg_rougeL": 0.1613,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "Food and Beverage": {
+      "n": 8,
+      "base_avg_words": 20.5,
+      "tuned_avg_words": 19.9,
+      "base_avg_rougeL": 0.1662,
+      "tuned_avg_rougeL": 0.2618,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "Gaming": {
+      "n": 4,
+      "base_avg_words": 17,
+      "tuned_avg_words": 27.8,
+      "base_avg_rougeL": 0.5646,
+      "tuned_avg_rougeL": 0.4116,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0.25
+    },
+    "Grocery": {
+      "n": 4,
+      "base_avg_words": 16,
+      "tuned_avg_words": 14.8,
+      "base_avg_rougeL": 0.3563,
+      "tuned_avg_rougeL": 0.402,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "Healthcare": {
+      "n": 12,
+      "base_avg_words": 25.3,
+      "tuned_avg_words": 21.1,
+      "base_avg_rougeL": 0.3732,
+      "tuned_avg_rougeL": 0.4232,
+      "base_avg_format_hits": 0.08,
+      "tuned_avg_format_hits": 0.58
+    },
+    "Hiring Platforms": {
+      "n": 4,
+      "base_avg_words": 33.5,
+      "tuned_avg_words": 42.8,
+      "base_avg_rougeL": 0.16,
+      "tuned_avg_rougeL": 0.331,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 1
+    },
+    "Home Goods": {
+      "n": 4,
+      "base_avg_words": 36.5,
+      "tuned_avg_words": 16.8,
+      "base_avg_rougeL": 0.3551,
+      "tuned_avg_rougeL": 0.4102,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "Hospitality": {
+      "n": 4,
+      "base_avg_words": 5.5,
+      "tuned_avg_words": 6.5,
+      "base_avg_rougeL": 0.1296,
+      "tuned_avg_rougeL": 0.1531,
+      "base_avg_format_hits": 0.25,
+      "tuned_avg_format_hits": 0.25
+    },
+    "Insurance": {
+      "n": 4,
+      "base_avg_words": 85.8,
+      "tuned_avg_words": 83,
+      "base_avg_rougeL": 0.1036,
+      "tuned_avg_rougeL": 0.1265,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "Lending": {
+      "n": 4,
+      "base_avg_words": 39.5,
+      "tuned_avg_words": 25.2,
+      "base_avg_rougeL": 0.5522,
+      "tuned_avg_rougeL": 0.7826,
+      "base_avg_format_hits": 0.25,
+      "tuned_avg_format_hits": 1
+    },
+    "Pharmacy": {
+      "n": 4,
+      "base_avg_words": 30.5,
+      "tuned_avg_words": 16.2,
+      "base_avg_rougeL": 0.1333,
+      "tuned_avg_rougeL": 0.2239,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 1
+    },
+    "Public Transit": {
+      "n": 4,
+      "base_avg_words": 60,
+      "tuned_avg_words": 41.5,
+      "base_avg_rougeL": 0.1558,
+      "tuned_avg_rougeL": 0.2897,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "Real Estate": {
+      "n": 4,
+      "base_avg_words": 6.5,
+      "tuned_avg_words": 8,
+      "base_avg_rougeL": 0.2545,
+      "tuned_avg_rougeL": 0.3327,
+      "base_avg_format_hits": 0.25,
+      "tuned_avg_format_hits": 0.25
+    },
+    "Retail": {
+      "n": 20,
+      "base_avg_words": 18.9,
+      "tuned_avg_words": 14.8,
+      "base_avg_rougeL": 0.3758,
+      "tuned_avg_rougeL": 0.4952,
+      "base_avg_format_hits": 0.25,
+      "tuned_avg_format_hits": 0.65
+    },
+    "Ride Sharing": {
+      "n": 4,
+      "base_avg_words": 18.2,
+      "tuned_avg_words": 19,
+      "base_avg_rougeL": 0.4849,
+      "tuned_avg_rougeL": 0.5702,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "SaaS": {
+      "n": 8,
+      "base_avg_words": 22.1,
+      "tuned_avg_words": 21.5,
+      "base_avg_rougeL": 0.2918,
+      "tuned_avg_rougeL": 0.3625,
+      "base_avg_format_hits": 0.12,
+      "tuned_avg_format_hits": 1
+    },
+    "Software": {
+      "n": 4,
+      "base_avg_words": 23.8,
+      "tuned_avg_words": 29.2,
+      "base_avg_rougeL": 0.2284,
+      "tuned_avg_rougeL": 0.1861,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0.25
+    },
+    "Streaming": {
+      "n": 8,
+      "base_avg_words": 43.4,
+      "tuned_avg_words": 27.6,
+      "base_avg_rougeL": 0.3295,
+      "tuned_avg_rougeL": 0.4981,
+      "base_avg_format_hits": 0.12,
+      "tuned_avg_format_hits": 0
+    },
+    "Telecom": {
+      "n": 8,
+      "base_avg_words": 42.2,
+      "tuned_avg_words": 28.9,
+      "base_avg_rougeL": 0.1444,
+      "tuned_avg_rougeL": 0.2627,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    },
+    "Travel": {
+      "n": 8,
+      "base_avg_words": 20.4,
+      "tuned_avg_words": 26.9,
+      "base_avg_rougeL": 0.2901,
+      "tuned_avg_rougeL": 0.5037,
+      "base_avg_format_hits": 0.12,
+      "tuned_avg_format_hits": 0.5
+    },
+    "Utilities": {
+      "n": 4,
+      "base_avg_words": 28.2,
+      "tuned_avg_words": 8,
+      "base_avg_rougeL": 0.0175,
+      "tuned_avg_rougeL": 0.0908,
+      "base_avg_format_hits": 0,
+      "tuned_avg_format_hits": 0
+    }
+  }
+}
