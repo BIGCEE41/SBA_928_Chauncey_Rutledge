@@ -24,7 +24,7 @@ Six prompt variants cover structured issue/product coding, compact analyst outpu
 - **Base model:** [`google/flan-t5-small`](https://huggingface.co/google/flan-t5-small) (Apache-2.0 per the model card).
 - **Method:** parameter-efficient LoRA adaptation; the base weights are not rewritten.
 - **Run:** 1 epoch(s), batch size 2, learning rate 0.0002, seed 928, device `cpu`.
-- **Mean training loss:** 2.025007.
+- **Mean training loss:** 2.0423.
 - **Saved adapter:** `artifacts\fine_tuned_adapter`.
 
 ## Base versus fine-tuned results
@@ -57,4 +57,4 @@ Further work before operational use: expand and independently validate the sampl
 
 Run `uv sync`, then `uv run python train.py --max-records 30 --epochs 1`. The command downloads the public dataset, writes the train/validation JSONL files, fine-tunes the adapter, generates paired base/fine-tuned outputs, and records run metadata in `artifacts/training_evidence.json`. Results in this report are populated by that run; raw tickets and artifacts should be handled under the source dataset's terms.
 
-Software versions: {"kagglehub": "1.0.2", "peft": "0.21.2", "torch": "2.14.1", "transformers": "5.18.0"}
+Software versions: {"kagglehub": "1.0.2", "peft": "0.21.2", "torch": "2.14.1", "transformers": "5.19.0"}

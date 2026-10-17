@@ -1,32 +1,32 @@
 [
   {
-    "id": "structured_coding",
+    "id": "structured_transaction_analysis",
     "output_format": "structured",
-    "template": "You are coding one customer-support record for market research. Extract only the recorded product, issue category, priority, and channel. Do not guess missing values or generalize to all customers.\n\n{context}\n\nReturn one concise labeled line."
+    "template": "You are analyzing the UCI Online Retail dataset for market research. Summarize one transaction using only the supplied fields: product description, quantity, unit price, invoice date, and country. Do not invent missing values or customer motives.\n\n{context}\n\nReturn one concise labeled summary."
   },
   {
-    "id": "analyst_compact",
+    "id": "product_sales_trends",
     "output_format": "structured",
-    "template": "As a customer-insights analyst, turn this single ticket into a compact product / issue / priority / channel code. Use only the supplied evidence; mark absent fields as not provided.\n\n{context}\n\nReturn the labeled code only."
+    "template": "Act as a market research analyst studying product sales in the UCI Online Retail dataset. Identify product or sales patterns only when the supplied records support them. Distinguish observed quantities and prices from assumptions, and do not claim that a pattern represents the entire retail market.\n\n{context}\n\nReturn labeled findings and supporting evidence."
   },
   {
-    "id": "satisfaction_signal",
-    "output_format": "rating",
-    "template": "For this customer-experience research record, report the recorded satisfaction score and its simple low (1-2), mid-range (3), or high (4-5) band. Do not infer emotion or population sentiment from one rating.\n\n{context}\n\nReturn the score and band."
-  },
-  {
-    "id": "evidence_bounded_brief",
+    "id": "purchasing_pattern_research",
     "output_format": "brief",
-    "template": "Write a concise evidence-bounded customer-voice note for this one market-research ticket. Distinguish the customer's description from recorded metadata and explicitly avoid claims about prevalence or causes.\n\n{context}\n\nReturn a labeled note without adding unsupported claims."
+    "template": "Analyze the supplied UCI Online Retail transaction records for observable purchasing patterns, such as quantities, product descriptions, dates, or countries. Explain what the records show and identify limitations. Do not infer customer demographics, intentions, or reasons for purchases without evidence.\n\n{context}\n\nReturn a concise research note."
+  },
+  {
+    "id": "evidence_based_market_insights",
+    "output_format": "brief",
+    "template": "Prepare an evidence-based market research brief using the supplied UCI Online Retail data. Separate direct observations from interpretations, cite the relevant supplied values, and state when evidence is insufficient. Do not invent competitor information, market share, or causal explanations.\n\n{context}\n\nReturn findings, evidence, and limitations under clear labels."
   },
   {
     "id": "research_json",
     "output_format": "json",
-    "template": "Convert the supplied individual support ticket into a JSON object with product, issue_category, priority, channel, and satisfaction_rating keys. Use null for missing values. Do not add inferred fields.\n\n{context}\n\nReturn valid JSON only."
+    "template": "Convert the supplied UCI Online Retail transaction information into a valid JSON object with keys product_description, quantity, unit_price, invoice_date, country, and research_observation. Use null for unavailable fields. Keep research_observation limited to what the supplied data supports. Do not add inferred customer traits.\n\n{context}\n\nReturn valid JSON only."
   },
   {
-    "id": "privacy_aware_coding",
+    "id": "privacy_aware_retail_analysis",
     "output_format": "structured",
-    "template": "You are preparing an anonymized customer-research code. Ignore any identifying details in the text. Extract only product, recorded issue category, priority, and channel. Do not infer demographic traits, market-wide patterns, or missing values.\n\n{context}\n\nReturn one concise labeled line."
+    "template": "Analyze the supplied UCI Online Retail records for market research while protecting privacy. Do not expose customer identifiers or attempt to identify individuals. Summarize only relevant transaction fields and supported aggregate patterns. Do not infer personal characteristics or generalize beyond the available evidence.\n\n{context}\n\nReturn a concise, privacy-aware research summary."
   }
 ]

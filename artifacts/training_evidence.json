@@ -1,5 +1,5 @@
 {
-  "run_completed_utc": "2026-10-05T19:39:41.943575+00:00",
+  "run_completed_utc": "2026-10-09T01:42:26.436593+00:00",
   "model": "google/flan-t5-small",
   "method": "LoRA adapter fine-tuning of a sequence-to-sequence instruction model",
   "adapter_path": "artifacts\\fine_tuned_adapter",
@@ -9,7 +9,7 @@
   "learning_rate": 0.0002,
   "seed": 928,
   "training_examples": 144,
-  "mean_training_loss": 2.025007,
+  "mean_training_loss": 2.0423,
   "evaluation": {
     "held_out_examples": 6,
     "base_exact_match_count": 0,
@@ -19,7 +19,7 @@
   },
   "software_versions": {
     "torch": "2.14.1",
-    "transformers": "5.18.0",
+    "transformers": "5.19.0",
     "peft": "0.21.2",
     "kagglehub": "1.0.2"
   },
@@ -46,6 +46,6 @@
       "email addresses",
       "phone-number-like strings"
     ],
-    "created_utc": "2026-10-05T19:36:38.920011+00:00"
+    "created_utc": "2026-10-09T01:39:59.270714+00:00"
   }
 }
